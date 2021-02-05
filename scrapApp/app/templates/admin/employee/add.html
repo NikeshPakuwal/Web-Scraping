@@ -1,0 +1,35 @@
+{%  extends 'admin/base_site.html' %}
+
+{% block content %}
+
+
+<div class="card card-warning">
+    <div class="card-header">
+        <h3 class="card-title">General Elements</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+
+        <form method="post" role="form" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <input type="file" name="employeefile">
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </div>
+        </form>
+    </div>
+    <!-- /.card-body -->
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+        $(function () {
+            $('#summernote').summernote()
+        })
+
+</script>
+{% endblock %}

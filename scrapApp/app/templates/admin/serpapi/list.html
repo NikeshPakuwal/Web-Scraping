@@ -1,0 +1,151 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+{% block css %}
+<!-- DataTables -->
+<link href="{% static 'datatables_view/style.css' %}" rel="stylesheet"/>
+<link rel="stylesheet" href="{% static 'plugins/datatables-bs4/css/dataTables.bootstrap4.min.css' %}">
+<link rel="stylesheet" href="{% static 'plugins/datatables-responsive/css/responsive.bootstrap4.min.css' %}">
+<link rel="stylesheet" href="{% static 'plugins/datatables-buttons/css/buttons.bootstrap4.min.css' %}">
+
+<style>
+    div.dataTables_wrapper div.dataTables_filter{display:none;}
+
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+
+
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Google Upload List</h3>
+                <div class="box-tools float-right">
+                    {% csrf_token %}
+                    <button class="bulk_upload btn btn-primary">Bulk Upload Links</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-hover" id="google_links_ajx"
+                       style="width:100% !important">
+
+                </table>
+            </div>
+        </div>
+    </div>
+    {% if object_list %}
+    {% else %}
+    <div class="col-12">
+        <div class="alert alert-warning" role="alert">
+            There is no product, yet. But if you want, you can add from <strong>here.</strong>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+{% block scripts %}
+<!-- DataTables  & Plugins -->
+<script type="text/javascript" src="{% static 'datatables_view/utils.js' %}"></script>
+<script src="{% static 'plugins/datatables/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-responsive/js/dataTables.responsive.min.js' %}"></script>
+<script src="{% static 'bootboxjs/bootbox.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+
+<script>
+    $(function () {
+    var csrf = $("input[name=csrfmiddlewaretoken]").val()
+
+        DatatablesViewUtils.initialize_table(
+            $('#google_links_ajx'),
+            "{% url 'google_links_ajx' %}",
+            {
+                // extra_options (example)
+                processing: false,
+                autoWidth: false,
+                full_row_select: false,
+                scrollX: false
+            }
+        );
+        $('.bulk_upload').on('click' ,function(event) {
+            var obj = [];
+            $(".checklist").each(function() {
+                if ($(this).is(":checked")) {
+                    obj.push($(this).attr("data-cid"));
+                }
+            });
+            //alert(obj);
+            // var serializedData = obj;
+
+            var formData = {
+                'id': obj,
+                csrfmiddlewaretoken:csrf,
+                contentType: 'application/x-www-form-urlencoded',
+                encode: true,
+            };
+
+            $.ajax({
+                type        : 'POST',
+                url         : '{% url 'bulk_link_upload' %}',
+                data        : {
+                    'id' :  obj,
+                    'csrfmiddlewaretoken' : csrf
+                },
+                success: function (response) {
+                    //console.log(response.data);
+                    //var data = response.data;
+                     window.location.href = '{% url 'scrap_view' %}';
+
+                }
+
+            })
+
+
+
+        });
+        $(document).on("click", ".delete_button" , function() {
+            event.preventDefault();
+            var _button = $(this);
+            var nurl = _button.attr("data-url");
+            bootbox.confirm({
+                title: "Delete record?",
+                message: "Do you want to delete? This cannot be undone.",
+                buttons: {
+                    cancel: {
+                        label: '<i class="fa fa-times"></i> Cancel',
+                    },
+                    confirm: {
+                        label: '<i class="fa fa-check"></i> Confirm',
+                    },
+                },
+                callback: function (result) {
+                if(result){
+                    data = {
+                        csrfmiddlewaretoken: "{{ csrf_token }}",
+                    };
+                    var posting = $.post(nurl, data);
+                    posting.done(function (data) {
+                        var table = $('#datatable_register');
+                         table.DataTable().ajax.reload(null, false);
+                    });
+                    posting.fail(function (data) {
+                        alert("fail");
+                    });
+                }else{
+                    alert("cancelled");
+                }
+
+                },
+            });
+        });
+
+
+    })
+
+
+
+</script>
+
+{% endblock %}

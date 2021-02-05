@@ -1,0 +1,46 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+{% block title %}Semrush List{% endblock %}
+{% block css %}
+<!-- DataTables -->
+<link href="{% static 'datatables_view/style.css' %}" rel="stylesheet"/>
+<link rel="stylesheet" href="{% static 'plugins/datatables-bs4/css/dataTables.bootstrap4.min.css' %}">
+<link rel="stylesheet" href="{% static 'plugins/datatables-responsive/css/responsive.bootstrap4.min.css' %}">
+<link rel="stylesheet" href="{% static 'plugins/datatables-buttons/css/buttons.bootstrap4.min.css' %}">
+<style>
+    div.dataTables_wrapper div.dataTables_filter{display:none;}
+
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+
+
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Scrap Data View</h3>
+                <div class="box-tools float-right">
+                    <a href="{% url 'scrap_view' %}" class="bulk_upload btn btn-primary">Back to scraping list</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <h1><span>Title : </span> {{ object.title }}</h1>
+                <div class="content">
+                    <div class="">Keyword ID :  <b>{{ object.keyword_id }}</b> </div>
+                    <div class="">Created Date :  <b>{{ object.created_date }}</b> </div>
+                    <hr>
+                    {{ object.content|safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+{% block scripts %}
+
+
+{% endblock %}

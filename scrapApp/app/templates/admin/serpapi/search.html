@@ -1,0 +1,96 @@
+{%  extends 'admin/base_site.html' %}
+
+{% block css %}
+<style>
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .checkbox+.checkbox, .radio+.radio {
+    margin-top: -5px;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+    top:5px;
+}
+
+
+
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Google Links</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        <form action="{% url 'google_list' %}" method="post">
+            {% csrf_token %}
+            <button class="btn btn-warning" id="checkAll" type="button">All Check</button>
+            <button class="btn btn-primary" type="submit">Upload</button>
+
+            <input type="hidden" name="keyword_id" value="{{ id }}">
+            <hr>
+            <ol>
+                {% for row in list %}
+                <li>
+                    <div class="checkbox">
+                        <label>
+                            {% if row in all_links %}
+                            {{ row }}
+                            {% else %}
+                            <input type="checkbox" name="links" value="{{ row }}">{{ row }}<a href="{{ row }}"
+                                                                                              target="_blank"><i
+                                class="ml-1 fas fa-external-link-alt"></i></a>
+                            {% endif %}
+
+                        </label>
+                    </div>
+                </li>
+
+                {% endfor %}
+            </ol>
+        </form>
+
+    </div>
+    <!-- /.card-body -->
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+$(function () {
+
+    var clicked = false;
+    $("#checkAll").on("click", function() {
+        console.log('hello');
+        $('input:checkbox').prop("checked", !clicked);
+        clicked = !clicked;
+        this.innerHTML = clicked ? 'Unchecked All' : 'Check All';
+    });
+});
+
+
+</script>
+{% endblock %}
