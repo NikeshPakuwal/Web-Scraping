@@ -15,7 +15,7 @@ import io, csv
 
 
 # Create your views here.
-@login_required(login_url='/backend/login/')
+@login_required(login_url='/admin/login/')
 @permission_required('auth.view_user')
 def backend_home(request):
     title = 'Dashboard'
@@ -25,7 +25,7 @@ def backend_home(request):
     return render(request, 'admin/home.html', context)
 
 
-@login_required(login_url='/backend/login/')
+@login_required(login_url='/admin/login/')
 def user_pending(request):
     title = 'User Pending'
     context = {
