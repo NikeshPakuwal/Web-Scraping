@@ -11,12 +11,12 @@ urlpatterns = [
     path('', views.home_frontend, name='frontend'),
 
     # Backend Path
-    path('admin', adminView.backend_home),
+    path('admin/', adminView.backend_home),
     path('admin/user-pending', adminView.user_pending, name='user_pending'),
 
     # Authentication
-    # path(r'^login/$', RedirectView.as_view(pattern_name='login', permanent=False)),
-    path('login', adminView.backend_login, name='login'),
+    path('admin/', adminView.RedirectView, name='admin'),
+    path('admin/login/', adminView.backend_login, name='login'),
     path('password', adminView.forget_password, name='forgot-password'),
     path('admin/logout', adminView.user_logout, name='logout'),
     path('admin/register', adminView.user_Register, name='register'),

@@ -24,6 +24,9 @@ def backend_home(request):
     }
     return render(request, 'admin/home.html', context)
 
+@login_required(login_url='/admin/login/')
+def RedirectView(request):
+    return render(request, 'admin/auth/login.html')
 
 @login_required(login_url='/admin/login/')
 def user_pending(request):
@@ -35,7 +38,6 @@ def user_pending(request):
 
 
 def backend_login(request):
-
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -45,7 +47,7 @@ def backend_login(request):
             if user.is_active:
                 if user.is_staff:
                     login(request, user)
-                    return redirect('/admin')
+                    return redirect('/admin/')
                 else:
                     login(request, user)
                     return redirect('user_pending')
