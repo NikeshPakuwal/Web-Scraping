@@ -1,0 +1,467 @@
+{
+    "search_parameters": {
+      "q": "chadwick boseman",
+      "location": "United States",
+      "include_html": "true",
+      "engine": "google"
+    },
+    "search_information": {
+      "total_results": 18200000,
+      "time_taken_displayed": 0.81,
+      "query_displayed": "chadwick boseman"
+    },
+    "inline_videos": [
+      {
+        "title": "Chadwick Boseman Tribute",
+        "link": "https://www.youtube.com/watch?v=4VSx2E7WE50",
+        "length": "4:44",
+        "source": "YouTube - Marvel Entertainment",
+        "date": "Aug 30, 2020",
+        "date_utc": "2020-08-30T12:00:00.000Z",
+        "block_position": 4
+      },
+      {
+        "title": "Chadwick Boseman: Portrait of an Artist | Official Trailer | Netflix",
+        "link": "https://www.youtube.com/watch?v=7MYzlgRQXBY",
+        "length": "1:37",
+        "source": "YouTube - Netflix",
+        "date": "3 weeks ago",
+        "date_utc": "2021-04-13T12:00:00.000Z",
+        "block_position": 4
+      },
+      {
+        "title": "Chadwick Boseman Dead at 43",
+        "link": "https://www.youtube.com/watch?v=hmifvCllv3U",
+        "length": "2:43",
+        "source": "YouTube - Variety",
+        "date": "Aug 28, 2020",
+        "date_utc": "2020-08-28T12:00:00.000Z",
+        "block_position": 4
+      }
+    ],
+    "top_stories": [
+      {
+        "link": "https://gadgets.ndtv.com/entertainment/news/black-panther-2-chadwick-boseman-lupita-nyongo-respectful-cast-release-date-movie-marvel-2426969",
+        "title": "Black Panther II ‘So Respectful’ of Chadwick Boseman Loss, Lupita Nyong’o Says",
+        "visible_initially": true,
+        "source": "Gadgets 360",
+        "date": "1 day ago",
+        "date_utc": "2021-05-03T12:00:00.000Z",
+        "block_position": 3
+      },
+      {
+        "link": "https://hypebeast.com/2021/5/lupita-nyongo-black-panther-sequel-missing-chadwick-boseman",
+        "title": "Lupita Nyong'o Talks 'Black Panther' Sequel and Missing Chadwick Boseman",
+        "visible_initially": true,
+        "source": "Hypebeast",
+        "date": "1 day ago",
+        "date_utc": "2021-05-03T12:00:00.000Z",
+        "block_position": 3
+      },
+      {
+        "link": "https://www.eonline.com/news/1265241/black-panther-2-release-date-and-official-title-revealed",
+        "title": "Black Panther 2 Release Date and Official Title Revealed",
+        "visible_initially": true,
+        "source": "E! Online",
+        "date": "14 hours ago",
+        "date_utc": "2021-05-03T18:46:40.000Z",
+        "block_position": 3
+      }
+    ],
+    "top_stories_extra": {
+      "more_news_link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+boseman&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQt8YBegQIHxAD"
+    },
+    "knowledge_graph": {
+      "title": "Chadwick Boseman",
+      "type": "American actor",
+      "images": [
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAF8ARwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQMEBgcCBQj/xAAwEAABAwMCAwcDBAMAAAAAAAABAAIDBAUREiEGMUEHE1FhcYGRIjKxJEKh0RQVFv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EAB4RAAICAgIDAAAAAAAAAAAAAAABAhEDEiExIlGB/9oADAMBAAIRAxEAPwDcUIQgD5p7TrxVcUcaT0ri6GCic6nZGJ+8YNJOXjAABdtkeXNQ7Dw7bqh+Khskg6nUR+ElbajbK2/TShwdS17qdrNsnJcc7bbjB91Ist/ms5ZLUWuQRyDZzuTkssp1UDXBGF3M9yt4NsUsDTFDLARzfG8k/wAkrwJaCu4JutvutJWSS0j5vuhcY3kNIJjd6gflWS5cXmmigIt5nEzAQGnDgCos1U+9WG70dfbpKWaCA1cWo5wWbnpzxkf0ssM8qfl0bZ4YmvFcm7WS5wXm00typWyNhqYxIwSNwcFTlXOznvP+HshmndO40jDrdjYHk32G3srGtjkBCEIAEIQgDBeO4WzXa+x1DBTE3RhdoJ3b3WGu59Rv7rym2tlLbDCNErpn5a/GANtzuTyxn1Wjdr1kZ/rpbxEcPPdxytxtkE6XZ8dy33HvmAqaS40DaCsEhP3AMaSfEYA5/jzWOTb4dWFwrnst9ZZqWoio2yCGWM0zY3aSDpxycfLKW22Sio6SrhdNqc2mla6MBwBa5rhg7kk78+fwF5tpZwvb54ayCWTvYYi3VKHDJOxH1bZ8sjyyrPwr3NdxO6lDtbXxh5cOrMah87fKxSndI3k4a2zSbUHNtlI2SFsDxAwOiYctYdI+kHwHJSkgSrsPOBCEIAEITc80VPE6WeRscbBlznHAAQBQ+2e61Fv4bighjY6KslMUpcM7AZAHgds+ywukuT2zEtnbA4acOaN9hgH12Wl9p3HlDd4J7NRxMmp24eJnfueCMafDbUPjosaqNLnZblvqqjHZcj2cXaNAdxFK+gkM97NUCwtMM8ODnHT+163ZPNWVHFNLKZSyPSY9/wBzWs5fACy6kZqeMnOOitVmr/8ACc95eRiJzWuBxpyOizcFDot5Hk7Pp9CyKwdplVRwQQ3WI1AIJc4u+sb/AMq8WbjeyXeaKCnncyaTOGSNxuBnmhSRDTLKhCFQiv8AFHFtt4dg/USCSpP2QMO/v4BYrxVxrceIHFk0xZBnaJmzfhVKetlqJC+WV8jnHJc45JKbEmU9fYX6O52d6TkHyI5hRzSv5fS712UprhlONPindCqyPDTlvJrB56i5ehT04GCfqI3AOwTQd8JwybbbKW2y1RIla7WC45x1UeKrfS1AdzbggjOMg7FcSTHBGSfJRZnk5ylFCbL3wl2gV1nqi2SSWppNGkQSyE6fMeCFnzXlpOChVoTsMB2ydY7ZRBIDjdOMetWiEya12wTod5qE1+U4HqGi0yWHjOUveDCia+aQvx1SodkhzweqYkPULgyLgvTSJbAuASJipk7tzfNIroiyEXkEHplSmPGOahvKI5NIVBR6Qfhdh+25UNj9Q3TjSpaCyRrSGQ5CbHJKfBKh2dF/guO8TbvIrk58VSRLYzPL3kxJ6bBCac46z6pEyqP/2Q",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_suHsOzzpllcD9Gm7KotsCZ9bZ1NPE9ksinda7BRo6Q&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE6KDm2vRAt2NvwIPXSJgmCo9tZwGa6Y3lJrIph-POwA&s"
+      ],
+      "source": {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Chadwick_Boseman"
+      },
+      "description": "Chadwick Aaron Boseman was an American actor and playwright. After studying directing at Howard University, he began working consistently as a writer, director, and actor for the stage, winning a Drama ...",
+      "born": "November 29, 1976, Anderson, SC",
+      "height": "6′ 0″",
+      "known_attributes": [
+        {
+          "attribute": "kc:/people/person:born",
+          "value": "November 29, 1976, Anderson, SC",
+          "name": "Born",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+born&stick=H4sIAAAAAAAAAOPgE-LSz9U3SMq1NEsv0hLLTrbSL0jNL8hJBVJFxfl5Vkn5RXmLWKWTMxJTyjOTsxUSE4vy8xSS8otTcxNBdFEeAMiOi0NEAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ6BMoADA0egQIPxAC"
+        },
+        {
+          "attribute": "kc:/people/deceased_person:died",
+          "value": "August 28, 2020, Los Angeles, CA",
+          "name": "Died",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+died&stick=H4sIAAAAAAAAAOPgE-LSz9U3SMq1NEsv0pLPTrbSL0jNL8hJ1U9JTU5NLE5NiS9ILSrOz7NKyUxNWcQqnZyRmFKemZytkJhYlJ-nkJRfnJqbmKcAkgUA4HQswU0AAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ6BMoADA1egQIRBAC"
+        },
+        {
+          "attribute": "kc:/people/person:height",
+          "value": "6′ 0″",
+          "name": "Height",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+height&stick=H4sIAAAAAAAAAOPgE-LSz9U3SMq1NEsv0pLITrbSL0jNL8hJBVJFxfl5VhmpmekZJYtYZZMzElPKM5OzFRITi_LzFJLyi1NzE_MUIPIAEJRUEkgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ6BMoADA2egQIShAC"
+        },
+        {
+          "attribute": "kc:/people/person:upcoming movie",
+          "value": "Black Panther: Wakanda Forever",
+          "name": "Upcoming movie",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+upcoming+movie&stick=H4sIAAAAAAAAAOPgE-LSz9U3SMq1NEsv0lLITrbSL0jNL8hJBVJFxfl5VqUFyfm5mXnpCrn5ZZmpi1hVkzMSU8ozk7MVEhOL8vMUkvKLU3MT8xRQ1QEALd9QcFgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ6BMoADA4egQIQRAC"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "Movies",
+          "value": "Movies",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+movies&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUkJia0lkJ1vpF6TmF-SkAqmi4vw8q9z8sszU4kWssskZiSnlmcnZComJRfl5Ckn5xam5iXkKEPkdrIwAAELvUVcAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQMSgAMDl6BAhDEAE"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "View 30+ more",
+          "value": "View 30+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=chadwick+aaron+boseman+movies&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUkJia0lkJ1vpF6TmF-SkAqmi4vw8q9z8sszU4kWssskZiSnlmcnZComJRfl5Ckn5xam5iXkKEPkdrIwAAELvUVcAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzTooATA5egQIQxAC"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "Black Panther",
+          "value": "Black Panther2018",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Black+Panther&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuIGsQ2NzJLMi5K1eANSi4rz80LyffPLMlMXsfI65SQmZysEJOaVZKQW7WBlBACqMxALPQAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOXoECEMQBQ"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "Ma Rainey's Black Bo...",
+          "value": "Ma Rainey's Black Bo...2020",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Ma+Rainey%27s+Black+Bottom&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuLVT9c3NMwwSS_Iysgy1OINSC0qzs8LyffNL8tMXcQq4ZuoEJSYmZdaqV6s4JSTmJyt4JRfUpKfu4OVEQAyR4quSgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOXoECEMQBw"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "Black Panther: Wakand...",
+          "value": "Black Panther: Wakand...2022",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Black+Panther+2&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuLVT9c3NMyINy4xKzMs1OINSC0qzs8LyffNL8tMXcTK75STmJytEJCYV5KRWqRgtIOVEQAGZ9HvQQAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOXoECEMQCQ"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "21 Bridges",
+          "value": "21 Bridges2019",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=21+Bridges&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuLVT9c3NEzLMrEsKksp0-INSC0qzs8LyffNL8tMXcTKZWSo4FSUmZKeWryDlREAHXrnMzwAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOXoECEMQCw"
+        },
+        {
+          "attribute": "kc:/people/person:movies",
+          "name": "Get on Up",
+          "value": "Get on Up2014",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Get+on+Up&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUgKzq0qSk3KStHgDUouK8_NC8n3zyzJTF7FyuqeWKOTnKYQW7GBlBAAZiUtKOAAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOXoECEMQDQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "People also search for",
+          "value": "People also search for",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Aaron+Boseman&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUkJia0llJ1vpF6TmF-SkAqmi4vw8q-LMlNTyxMriRaxizhmJKeWZydkKjolF-XkKTvnFqbmJeTtYGQHp6Lp8UgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQMSgAMDp6BAhCEAE"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "View 15+ more",
+          "value": "View 15+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Aaron+Boseman&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUkJia0llJ1vpF6TmF-SkAqmi4vw8q-LMlNTyxMriRaxizhmJKeWZydkKjolF-XkKTvnFqbmJeTtYGQHp6Lp8UgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzTooATA6egQIQhAC"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Michael B. Jordan",
+          "value": "Michael B. Jordan",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Michael+B.+Jordan&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuIEsc2NSuINtPgCUouK8_OCM1NSyxMrixexCvpmJmckpuYoOOkpeOUXpSTm7WBlBADXj3IKQAAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOnoECEIQBQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Taylor Simone Ledward",
+          "value": "Taylor Simone Ledward",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Taylor+Simone+Ledward&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuLVT9c3NMw2KjExMS6q0uILSC0qzs8LzkxJLU-sLF7EKhqSWJmTX6QQnJmbn5eq4JOaUp5YlLKDlREAsd466UgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOnoECEIQBw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Letitia Wright",
+          "value": "Letitia Wright",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Letitia+Wright&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUgKzM6rKc4wMtfgCUouK8_OCM1NSyxMrixex8vmklmSWZCYqhBdlpmeU7GBlBABcdhtuPgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOnoECEIQCQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Lupita Nyong'o",
+          "value": "Lupita Nyong'o",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Lupita+Nyong%27o&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUgKzcwxLLMvLtPgCUouK8_OCM1NSyxMrixex8vmUFmSWJCr4Vebnpavn72BlBAA6exoMPgAAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOnoECEIQCw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Leroy Boseman",
+          "value": "Leroy Boseman",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Leroy+Boseman&stick=H4sIAAAAAAAAAONgFuLSz9U3SMq1NEsvUuIGsQ0NcgzKTXK0-AJSi4rz84IzU1LLEyuLF7Hy-qQW5VcqOOUXp-Ym5u1gZQQAj48b6z4AAAA&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQxA0wOnoECEIQDQ"
+        }
+      ],
+      "block_position": 3,
+      "people_also_search_for": [
+        {
+          "name": "Michael B. Jordan"
+        },
+        {
+          "name": "Taylor Simone Ledward"
+        },
+        {
+          "name": "Letitia Wright"
+        },
+        {
+          "name": "Lupita Nyong'o"
+        },
+        {
+          "name": "Leroy Boseman"
+        }
+      ]
+    },
+    "related_searches": [
+      {
+        "query": "chadwick boseman wife",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+wife&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwInoECFUQAQ"
+      },
+      {
+        "query": "chadwick boseman weight loss",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+weight+loss&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwI3oECFMQAQ"
+      },
+      {
+        "query": "chadwick boseman death cause",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+death+cause&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwJHoECFAQAQ"
+      },
+      {
+        "query": "chadwick boseman net worth",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+net+worth&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwJXoECFIQAQ"
+      },
+      {
+        "query": "chadwick boseman brother",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+brother&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwJnoECEAQAQ"
+      },
+      {
+        "query": "chadwick boseman funeral",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+funeral&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwJ3oECD4QAQ"
+      },
+      {
+        "query": "chadwick boseman black panther",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+Black+Panther&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwKHoECD0QAQ"
+      },
+      {
+        "query": "chadwick boseman family",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Chadwick+Boseman+family&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ1QIwKXoECDoQAQ"
+      }
+    ],
+    "related_questions": [
+      {
+        "question": "How did Chadwick Bosewick die?",
+        "answer": "Cancer",
+        "source": {
+          "link": "https://www.nytimes.com/2020/08/28/movies/chadwick-boseman-dead.html",
+          "displayed_link": "https://www.nytimes.com › 2020/08/28 › movies › chadw...",
+          "title": "Chadwick Boseman, Actor, Dies at 43 - The New York Times"
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=How+did+Chadwick+Bosewick+die%3F&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzmd6BAgeEAs",
+          "title": "How did Chadwick Bosewick die?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Did Chaz Boseman die?",
+        "answer": "August 28, 2020",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Did+Chaz+Boseman+die%3F&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzmd6BAgeEA8",
+          "title": "Did Chaz Boseman die?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "How much was Chadwick Boseman worth?",
+        "answer": "At the time of his death in 2020, Chadwick Boseman's net worth was estimated to be around $12 million.",
+        "source": {
+          "link": "https://thecinemaholic.com/what-is-chadwick-bosemans-net-worth/",
+          "displayed_link": "https://thecinemaholic.com › what-is-chadwick-bosemans-...",
+          "title": "What Was Chadwick Boseman's Net Worth at the Time of His Death?"
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=How+much+was+Chadwick+Boseman+worth%3F&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzmd6BAgeEBM",
+          "title": "How much was Chadwick Boseman worth?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Who was Chadwick Boseman's wife?",
+        "answer": "Taylor Simone Ledward",
+        "source": {
+          "link": "https://www.vogue.com/article/chadwick-bosemans-wife-golden-globes-speech",
+          "displayed_link": "https://www.vogue.com › article › chadwick-bosemans-wi...",
+          "title": "Chadwick Boseman's Wife Accepting His Golden Globe Was the ..."
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Who+was+Chadwick+Boseman%27s+wife%3F&sa=X&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQzmd6BAgeEBc",
+          "title": "Who was Chadwick Boseman's wife?"
+        },
+        "block_position": 2
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Chadwick Boseman - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Chadwick_Boseman",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org › wiki › Chadwick_Boseman",
+        "snippet": "Chadwick Aaron Boseman (/ˈboʊzmən/; November 29, 1976 – August 28, 2020) was an American actor and playwright. After studying directing at Howard ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick",
+          "Boseman"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4B9nsnSfSPIJ:https://en.wikipedia.org/wiki/Chadwick_Boseman+&cd=1&hl=en&ct=clnk&gl=us",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {},
+            "extensions": [
+              "‎Colorectal cancer",
+              "‎List of awards and...",
+              "‎21 Bridges",
+              "‎Marshall (film)"
+            ]
+          }
+        },
+        "block_position": 1
+      },
+      {
+        "position": 2,
+        "title": "Chadwick Boseman - IMDb",
+        "link": "https://www.imdb.com/name/nm1569276/",
+        "domain": "www.imdb.com",
+        "displayed_link": "https://www.imdb.com › name",
+        "snippet": "Chadwick Boseman, Actor: Black Panther. Chadwick Boseman was an American actor. He is known for his portrayal of T'Challa / Black Panther in the Marvel ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman",
+          "Chadwick Boseman"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:D2Dxj6_JA-wJ:https://www.imdb.com/name/nm1569276/+&cd=25&hl=en&ct=clnk&gl=us",
+        "block_position": 5
+      },
+      {
+        "position": 3,
+        "title": "Chadwick Boseman (@chadwickboseman) • Instagram photos ...",
+        "link": "https://www.instagram.com/chadwickboseman/",
+        "domain": "www.instagram.com",
+        "displayed_link": "https://www.instagram.com › chadwickboseman",
+        "snippet": "11m Followers, 184 Following, 387 Posts - See Instagram photos and videos from Chadwick Boseman (@chadwickboseman)",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman",
+          "chadwickboseman"
+        ],
+        "block_position": 18
+      },
+      {
+        "position": 4,
+        "title": "Chadwick Boseman, Actor, Dies at 43 - The New York Times",
+        "link": "https://www.nytimes.com/2020/08/28/movies/chadwick-boseman-dead.html",
+        "domain": "www.nytimes.com",
+        "displayed_link": "https://www.nytimes.com › 2020/08/28 › movies › chadw...",
+        "snippet": "Chadwick Boseman, the regal actor who embodied a long-held dream of African-American moviegoers as the star of the groundbreaking superhero film “Black Panther,” died on Friday at his home in Los Angeles. He was 43. His publicist confirmed the death, saying Mr.",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman"
+        ],
+        "date": "Dec 17, 2020",
+        "date_utc": "2020-12-17T12:00:00.000Z",
+        "block_position": 19
+      },
+      {
+        "position": 5,
+        "title": "Chadwick Boseman on Twitter: \"… \"",
+        "link": "https://twitter.com/chadwickboseman/status/1299530165463199747?lang=en",
+        "domain": "twitter.com",
+        "displayed_link": "https://twitter.com › chadwickboseman › status",
+        "snippet": "Chadwick BosemanVerified account. @chadwickboseman. Actor | Director | Writer | Producer at @XceptionContent | http://Instagram.com ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman",
+          "chadwickboseman"
+        ],
+        "date": "Aug 28, 2020",
+        "date_utc": "2020-08-28T12:00:00.000Z",
+        "block_position": 20
+      },
+      {
+        "position": 6,
+        "title": "Chadwick Boseman (@chadwickboseman) | Twitter",
+        "link": "https://twitter.com/chadwickboseman?lang=en",
+        "domain": "twitter.com",
+        "displayed_link": "https://twitter.com › chadwickboseman",
+        "snippet": "The latest Tweets from Chadwick Boseman (@chadwickboseman). Actor | Director | Writer | Producer at @XceptionContent | https://t.co/3YRiCD6vSe.",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman",
+          "chadwickboseman"
+        ],
+        "block_position": 21
+      },
+      {
+        "position": 7,
+        "title": "'Black Panther' star Chadwick Boseman dies of cancer at 43",
+        "link": "https://apnews.com/article/5f4352111fdead278da3651b44d311b8?utm_source=mp-fotoscapes",
+        "domain": "apnews.com",
+        "displayed_link": "https://apnews.com › article",
+        "snippet": "LOS ANGELES (AP) — Chadwick Boseman, who played Black American icons Jackie Robinson and James Brown with searing intensity ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman"
+        ],
+        "date": "Aug 28, 2020",
+        "date_utc": "2020-08-28T12:00:00.000Z",
+        "block_position": 22
+      },
+      {
+        "position": 8,
+        "title": "Chadwick Boseman - Rotten Tomatoes",
+        "link": "https://www.rottentomatoes.com/celebrity/chadwick_boseman",
+        "domain": "www.rottentomatoes.com",
+        "displayed_link": "https://www.rottentomatoes.com › celebrity › chadwick...",
+        "snippet": "Chadwick Boseman died at his home in Los Angeles on August 28, 2020 at the age of 43, following a four-year battle with colon cancer. His final film role was in ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Chadwick Boseman"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UbxFbdUdt34J:https://www.rottentomatoes.com/celebrity/chadwick_boseman+&cd=31&hl=en&ct=clnk&gl=us",
+        "block_position": 23
+      }
+    ],
+    "pagination": {
+      "next": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=10&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8NMDegQIARBJ",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=10&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARA3",
+        "3": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=20&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARA5",
+        "4": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=30&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARA7",
+        "5": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=40&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARA9",
+        "6": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=50&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARA_",
+        "7": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=60&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARBB",
+        "8": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=70&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARBD",
+        "9": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=80&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARBF",
+        "10": "https://www.google.com/search?q=chadwick+boseman&gl=us&hl=en&ei=7gmRYLe2JZCQtQWl0ZCgCg&start=90&sa=N&ved=2ahUKEwi35bTu0a_wAhUQSK0KHaUoBKQQ8tMDegQIARBH"
+      },
+      "api_pagination": {
+        "next": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=2",
+        "other_pages": {
+          "2": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=2",
+          "3": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=3",
+          "4": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=4",
+          "5": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=5",
+          "6": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=6",
+          "7": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=7",
+          "8": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=8",
+          "9": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=9",
+          "10": "https://api.serpwow.com/live/search?api_key=demo&q=chadwick%20boseman&location=United%20States&recaptcha=03AGdBq262UcPE1Cr_ot2dE452qw860h7tvMvB37idEr7USuJfVKx39rMLmXU_5_Y-Fkrkbp7IJ9Svk9ehBBPtotQLKtTKrPeHSli4NGDgKNt2IFCrUji_BLrXMGS_TkOuTvbCpFNLG28Lfk7LkTR1CvdntZPLwmVFZwm3XgFp6-YqRaBEmFZIOg3wrBN8RmmbFkWRJwI-a0RxMPjLkyWz0NRnu3PDusbc3pwYnLmcckc8oWri8IHxmqfsqV0oVbX7y38FkAwmD7U266gYR6JEvn77NNCyhjxurXxturl91mJcNPmAYbOD3eWfhuUqEjyu2ZgqR9B89T_qbgM9LcHDu_1QX84lT0v8bw-g43KgBLn4TSmDYIFw2ZtT9TXdTB_tLSZo01hGQ4aXvS85dmsw5R62fbuSQm_ml1dYMz2XqYTlEb_BbuCuy6Doh82sCy-0wqPnE2-nTyvt&include_html=true&engine=google&page=10"
+        }
+      }
+    }
+  }

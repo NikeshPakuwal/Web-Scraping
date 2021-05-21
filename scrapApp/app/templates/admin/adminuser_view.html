@@ -1,0 +1,89 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<!-- Main content -->
+<section class="content">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">{{title}}</h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <table class="table table-bordered">
+                <thead>
+                    <tr>
+                      <th scope="col">Attribute</th>
+                      <th scope="col">Value</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                    <tr>
+                        <td>ID</td>
+                        <td>{{ display.id }}</td>
+                      </tr>
+                    <tr>
+                      <td>Username</td>
+                      <td>{{ display.username }}</td>
+                    </tr>
+                    <tr>
+                      <td>Password</td>
+                      <td>{{ display.password }}</td>
+                    </tr>
+                    <tr>
+                      <td>First Name</td>
+                      <td>{{ display.first_name }}</td>
+                    </tr>
+                    <tr>
+                      <td>Last Name</td>
+                      <td>{{ display.last_name }}</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>{{ display.email }}</td>
+                    </tr>
+                    <tr>
+                      <td>Active Status</td>
+                      <td>{{ display.is_active }}</td>
+                    </tr>
+                    <tr>
+                      <td>Staff Status</td>
+                      <td>{{ display.is_staff }}</td>
+                    </tr>
+                    <tr>
+                        <td>Superuser Status</td>
+                        <td>{{ display.is_superuser }}</td>
+                    </tr>
+                    <tr>
+                        <td>Groups</td>
+                        <td>{{ display.groups }}</td>
+                    </tr>
+                    <tr>
+                        <td>User Permissions</td>
+                        <td>{{ display.user_permissions }}</td>
+                    </tr>
+                    <!-- <tr>
+                        <td>Last Login</td>
+                        <td>{{ display.last_login_0 }}</td>
+                    </tr>
+                    <tr>
+                        <td>Date Joined</td>
+                        <td>{{ display.date_joined_0 }}</td>
+                    </tr> -->
+    
+                  </tbody>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock content %}

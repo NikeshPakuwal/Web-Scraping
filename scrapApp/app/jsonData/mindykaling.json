@@ -1,0 +1,541 @@
+{
+    "search_parameters": {
+      "q": "mindy kaling",
+      "location": "United States",
+      "include_html": "true",
+      "engine": "google"
+    },
+    "search_information": {
+      "total_results": 6230000,
+      "time_taken_displayed": 0.67,
+      "query_displayed": "mindy kaling"
+    },
+    "inline_tweets": [
+      {
+        "link": "https://twitter.com/mindykaling/status/1387169895922634753",
+        "status_link": "https://twitter.com/mindykaling/status/1387169895922634753",
+        "title": "Mindy Kaling (@mindykaling)",
+        "date": "1 day ago",
+        "date_utc": "2021-04-28T12:00:00.000Z",
+        "snippet": "Happy one year @neverhaveiever-versary!! Can’t wait to be back in July on @netflix! ",
+        "block_position": 3
+      },
+      {
+        "link": "https://twitter.com/mindykaling/status/1386813422784827395",
+        "status_link": "https://twitter.com/mindykaling/status/1386813422784827395",
+        "title": "Mindy Kaling (@mindykaling)",
+        "date": "2 days ago",
+        "date_utc": "2021-04-27T12:00:00.000Z",
+        "snippet": "Maskless feasting at Jon & Vinny’s Brentwood. Pictured: White Lightning pizza, spicy fusilli, grilled chicken. Not pictured: eggplant parm, little gem salad and my unbuttoned jeans. Chef’s kiss. ",
+        "block_position": 3
+      }
+    ],
+    "knowledge_graph": {
+      "title": "Mindy Kaling",
+      "type": "American actress",
+      "images": [
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsUFOdDo2QX7qEDuZ3LqQ7K10-D5uogI2pxCzu_2jjmA&s"
+      ],
+      "source": {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Mindy_Kaling"
+      },
+      "description": "Vera Mindy Chokalingam, known professionally as Mindy Kaling, is an American actress, comedian, writer, producer, and director. She first gained recognition starring as Kelly Kapoor in the NBC sitcom The Office, for which she also served as a writer, executive producer, and director.",
+      "born": "June 24, 1979 (age 41 years), Cambridge, MA",
+      "height": "5′ 4″",
+      "tv_shows": "View 25+ more",
+      "books": [
+        {
+          "name": "Why Not Me?",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Why+Not+Me%3F+(book)&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUpW4tVP1zc0TE9PMs61TC_SkspOttJPys_P1k8sLcnIL7ICsYsV8vNyKhexCoVnVCr45Zco-KbaK2iAZDR3sDICABgLvxBQAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQmxMoATAxegQIJBAD"
+        },
+        {
+          "name": "MORE",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+books&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWkspOttJPys_P1k8sLcnIL7ICsYsV8vNyKhexCuVm5qVUKmQn5mTmpSuAZQAmrrc-PgAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ44YBKAIwMXoECCQQBA"
+        }
+      ],
+      "parents": [
+        {
+          "name": "Avu Chokalingam",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Avu+Chokalingam&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUpW4gIxs5Oyi7JLtCSzk630C1LzC3JSgVRRcX6eVUFiUWpeSfEiVn7HslIF54z87MSczLz0xNwdrIwArV0ncEkAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQmxMoATAyegQIHRAD"
+        },
+        {
+          "name": "Swati Roysircar",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Swati+Roysircar&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUpW4gIxs5Oyi7KztSSzk630C1LzC3JSgVRRcX6eVUFiUWpeSfEiVv7g8sSSTIWg_MrizKLkxKIdrIwAkTkgf0kAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQmxMoAjAyegQIHRAE"
+        }
+      ],
+      "children": [
+        {
+          "name": "Katherine Kaling",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Katherine+Kaling&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUpW4tVP1zc0TDNOScpNLqvUkspOttIvSM0vyEkFUkXF-XlWyRmZOSlFqXmLWAW8E0syUosy81IVvBNzMvPSd7AyAgDBcvJ2TgAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQmxMoATAwegQIKRAD"
+        },
+        {
+          "name": "Spencer Kaling",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Spencer+Kaling&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUpW4tVP1zc0zM0zzy5LKszTkspOttIvSM0vyEkFUkXF-XlWyRmZOSlFqXmLWPmCC1LzklOLFLwTczLz0newMgIAr3efTUwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQmxMoAjAwegQIKRAE"
+        }
+      ],
+      "known_attributes": [
+        {
+          "attribute": "kc:/people/person:born",
+          "value": "June 24, 1979 (age 41 years), Cambridge, MA",
+          "name": "Born",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+born&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWEstOttIvSM0vyEkFUkXF-XlWSflFeYtYBXMz81IqFbITczLz0hVAYgACksb_OQAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ6BMoADAuegQIJRAC"
+        },
+        {
+          "attribute": "kc:/people/person:height",
+          "value": "5′ 4″",
+          "name": "Height",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+height&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWkshOttIvSM0vyEkFUkXF-XlWGamZ6Rkli1iFczPzUioVshNzMvPSFSCiAAPpJi09AAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ6BMoADAvegQIKBAC"
+        },
+        {
+          "attribute": "kc:/people/person:children",
+          "value": "Katherine Kaling, Spencer Kaling",
+          "name": "Children",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+children&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWkspOttIvSM0vyEkFUkXF-XlWyRmZOSlFqXmLWEVzM_NSKhWyE3My89IVYOIAd5-hm0EAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ6BMoADAwegQIKRAC"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "value": "Why Not Me?, MORE",
+          "name": "Books",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+books&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWkspOttJPys_P1k8sLcnIL7ICsYsV8vNyKhexCuVm5qVUKmQn5mTmpSuAZQAmrrc-PgAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ6BMoADAxegQIJBAC"
+        },
+        {
+          "attribute": "kc:/people/person:parents",
+          "value": "Avu Chokalingam, Swati Roysircar",
+          "name": "Parents",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+parents&stick=H4sIAAAAAAAAAOPgE-LUz9U3yDDOLUrWksxOttIvSM0vyEkFUkXF-XlWBYlFqXklxYtYRXIz81IqFbITczLz0hWgwgBMVN7sPwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ6BMoADAyegQIHRAC"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "Movies and TV shows",
+          "value": "Movies and TV shows",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+movies+and+tv+shows&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWQjC1VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWhdzMvJRKhezEnMy8dAWIqAJQgUJJmQJY9Q5WRgAuRT3qZQAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQMSgAMDN6BAgmEAE"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "View 25+ more",
+          "value": "View 25+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=mindy+kaling+movies+and+tv+shows&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWQjC1VLOTrfQLUvMLclKBVFFxfp5VSZlucUZ-ebFuYl6Kbm5-WWZq8SJWhdzMvJRKhezEnMy8dAWIqAJQgUJJmQJY9Q5WRgAuRT3qZQAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzTooATAzegQIJhAC"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "The Mindy Project",
+          "value": "The Mindy Project2012 – 2017",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=The+Mindy+Project&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpW4gIxs0oMC81ztYQck0vyi0LyQ8Ic81J888syU4sXsQqGZKQq-GbmpVQqBBTlZ6Uml-xgZQQALbfJrkQAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wM3oECCYQBQ"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "The Office",
+          "value": "The Office2005",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=The+Office&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjMtstKzDbWEHJNL8otC8kPCHPNSfPPLMlOLF7FyhWSkKvinpWUmp-5gZQQAVYl7yzwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wM3oECCYQBw"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "Ocean's Eight",
+          "value": "Ocean's Eight2018",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Ocean%27s+Eight&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpW4tVP1zc0TDZMtshNNjfSEnJMLskvCskPCXPMS_HNL8tMLV7EyuufnJqYp16s4JqZnlGyg5URAFC6IwpDAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wM3oECCYQCQ"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "Never Have I Ever",
+          "value": "Never Have I EverSince 2020",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Never+Have+I+Ever&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpW4tVP1zc0zDLNyjY2MMzSEnJMLskvCskPCXPMS_HNL8tMLV7EKuiXWpZapOCRWJaq4KngCmTvYGUEAIdczeBHAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wM3oECCYQCw"
+        },
+        {
+          "attribute": "kc:/people/person:tv-shows-and-movies",
+          "name": "Late Night",
+          "value": "Late Night2019",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Late+Night+(film)&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpW4tVP1zc0TMsqKTDINSzREnJMLskvCskPCXPMS_HNL8tMLV7EKuiTWJKq4JeZnlGioJGWmZOruYOVEQAE1mVYRwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wM3oECCYQDQ"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Instagram",
+          "value": "https://www.instagram.com/mindykaling",
+          "link": "https://www.instagram.com/mindykaling"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Twitter",
+          "value": "https://twitter.com/mindykaling",
+          "link": "https://twitter.com/mindykaling"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Facebook",
+          "value": "https://www.facebook.com/OfficialMindyKaling",
+          "link": "https://www.facebook.com/OfficialMindyKaling"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "People also search for",
+          "value": "People also search for",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWQjC1pLKTrfQLUvMLclKBVFFxfp5VcWZKanliZfEiVh7fzLyUSgXvxJzMvPQdrIwAHI6SDUYAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQMSgAMDV6BAgnEAE"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "View 15+ more",
+          "value": "View 15+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWQjC1pLKTrfQLUvMLclKBVFFxfp5VcWZKanliZfEiVh7fzLyUSgXvxJzMvPQdrIwAHI6SDUYAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzTooATA1egQIJxAC"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Trending",
+          "value": "Creed Bratton (Trending)",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Creed+Bratton&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjMtygsN0rX4AlKLivPzgjNTUssTK4sXsfI6F6Wmpig4FSWWlOTn7WBlBAD90jPBOwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wNXoECCcQBQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "B. J. Novak",
+          "value": "B. J. Novak",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=B.+J.+Novak&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjMtMorLy7X4AlKLivPzgjNTUssTK4sXsXI76Sl46Sn45ZclZu9gZQQA5beMMDkAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wNXoECCcQBw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Angela Kinsey",
+          "value": "Angela Kinsey",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Angela+Kinsey&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjOTSszLi7X4AlKLivPzgjNTUssTK4sXsfI65qWn5iQqeGfmFadW7mBlBADQ17JJOwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wNXoECCcQCQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Jenna Fischer",
+          "value": "Jenna Fischer",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Jenna+Fischer&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjPNjZKSDLX4AlKLivPzgjNTUssTK4sXsfJ6peblJSq4ZRYnZ6QW7WBlBAAda9KFOwAAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wNXoECCcQCw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Brian Baumgartner",
+          "value": "Brian Baumgartner",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Brian+Baumgartner&stick=H4sIAAAAAAAAAONgFuLUz9U3yDDOLUpWAjOT83IMk7X4AlKLivPzgjNTUssTK4sXsQo6FWUm5ik4JZbmpicWleSlFu1gZQQAHUAe2z8AAAA&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQxA0wNXoECCcQDQ"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Instagram",
+          "link": "https://www.instagram.com/mindykaling"
+        },
+        {
+          "name": "Twitter",
+          "link": "https://twitter.com/mindykaling"
+        },
+        {
+          "name": "Facebook",
+          "link": "https://www.facebook.com/OfficialMindyKaling"
+        }
+      ],
+      "block_position": 3,
+      "people_also_search_for": [
+        {
+          "name": "Creed Bratton (Trending)",
+          "category": "Trending"
+        },
+        {
+          "name": "B. J. Novak"
+        },
+        {
+          "name": "Angela Kinsey"
+        },
+        {
+          "name": "Jenna Fischer"
+        },
+        {
+          "name": "Brian Baumgartner"
+        }
+      ]
+    },
+    "related_searches": [
+      {
+        "query": "mindy kaling husband",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+husband&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwHHoECDYQAQ"
+      },
+      {
+        "query": "mindy kaling net worth",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+net+worth&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwHXoECDUQAQ"
+      },
+      {
+        "query": "mindy kaling and b.j. novak",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+and+B.J.+Novak&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwHnoECDQQAQ"
+      },
+      {
+        "query": "mindy kaling baby",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+baby&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwH3oECDcQAQ"
+      },
+      {
+        "query": "mindy kaling - imdb",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+-+imdb&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwIHoECCMQAQ"
+      },
+      {
+        "query": "mindy kaling daughter",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+daughter&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwIXoECCIQAQ"
+      },
+      {
+        "query": "mindy kaling baby daddy",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+baby+daddy&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwInoECCAQAQ"
+      },
+      {
+        "query": "mindy kaling brother",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Mindy+Kaling+brother&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ1QIwI3oECB8QAQ"
+      }
+    ],
+    "related_questions": [
+      {
+        "question": "Who is Mindy Kaling's baby daddy?",
+        "answer": "She also has a two-year-old daughter, Katherine - whose father's identity she has never revealed. Fans have suspected the dad could be Mindy's frequent collaborator and close friend BJ Novak, though it seems unlikely as the actor is Katherine's godfather.",
+        "source": {
+          "link": "https://www.the-sun.com/entertainment/1855796/mindy-kaling-hide-pregnancy/",
+          "displayed_link": "https://www.the-sun.com › entertainment › mindy-kaling-...",
+          "title": "Mindy Kaling says it was 'easy' to hide her second pregnancy as she ..."
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Who+is+Mindy+Kaling%27s+baby+daddy%3F&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzmd6BAgNEAs",
+          "title": "Who is Mindy Kaling's baby daddy?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Who is Mindy Kaling husband?",
+        "answer": "May 2019: Mindy Kaling friendzones B.J. Novak in the press, he supports her at her Late Night premiere. “The truth is that B.J. is so much more like family now than a platonic friend,” she told Good Housekeeping. “He's the godfather to my daughter, he comes over like once a week.",
+        "source": {
+          "link": "https://parade.com/1102173/jessicasager/mindy-kaling-bj-novak-relationship/",
+          "displayed_link": "https://parade.com › jessicasager › mindy-kaling-bj-nov...",
+          "title": "Mindy Kaling and BJ Novak's Relationship - Mindy Kaling ..."
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Who+is+Mindy+Kaling+husband%3F&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzmd6BAgNEA8",
+          "title": "Who is Mindy Kaling husband?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Is Mindy Kaling Indian?",
+        "answer": "Early life. Vera Mindy Chokalingam was born in Cambridge, Massachusetts, to father Avu Chokalingam, an architect, and mother Swati Chokalingam (née Roysircar), an obstetrician/gynecologist (OB/GYN). Kaling's parents are from India and met while working at the same hospital in Nigeria.",
+        "answer_list": [
+          {
+            "text": "Cached"
+          },
+          {
+            "text": "Similar"
+          }
+        ],
+        "source": {
+          "link": "https://en.wikipedia.org/wiki/Mindy_Kaling",
+          "displayed_link": "https://en.wikipedia.org › wiki › Mindy_Kaling",
+          "title": "Mindy Kaling - Wikipedia"
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Is+Mindy+Kaling+Indian%3F&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzmd6BAgNEBM",
+          "title": "Is Mindy Kaling Indian?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "What is Mindy Kaling ethnicity?",
+        "answer": "Indian",
+        "source": {
+          "link": "https://www.britannica.com/biography/Mindy-Kaling",
+          "displayed_link": "https://www.britannica.com › biography › Mindy-Kaling",
+          "title": "Mindy Kaling | Biography, TV Shows, Books, & Facts | Britannica"
+        },
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=What+is+Mindy+Kaling+ethnicity%3F&sa=X&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQzmd6BAgNEBc",
+          "title": "What is Mindy Kaling ethnicity?"
+        },
+        "block_position": 2
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Mindy Kaling - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Mindy_Kaling",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org › wiki › Mindy_Kaling",
+        "snippet": "Vera Mindy Chokalingam (born June 24, 1979), known professionally as Mindy Kaling (/ˈkeɪlɪŋ/), is an American actress, comedian, writer, producer, and ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Ktz5Ua_IHbYJ:https://en.wikipedia.org/wiki/Mindy_Kaling+&cd=1&hl=en&ct=clnk&gl=us",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {},
+            "extensions": [
+              "‎Late Night (film)",
+              "‎Champions (American TV series)",
+              "‎Why Not Me? (book)"
+            ]
+          }
+        },
+        "block_position": 1
+      },
+      {
+        "position": 2,
+        "title": "Mindy Kaling (@mindykaling) • Instagram photos and videos",
+        "link": "https://www.instagram.com/mindykaling/?hl=en",
+        "domain": "www.instagram.com",
+        "displayed_link": "https://www.instagram.com › mindykaling",
+        "snippet": "5.8m Followers, 775 Following, 5155 Posts - See Instagram photos and videos from Mindy Kaling (@mindykaling)",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling",
+          "mindykaling"
+        ],
+        "block_position": 4
+      },
+      {
+        "position": 3,
+        "title": "Mindy Kaling - IMDb",
+        "link": "https://www.imdb.com/name/nm1411676/",
+        "domain": "www.imdb.com",
+        "displayed_link": "https://www.imdb.com › name",
+        "snippet": "Mindy Kaling was born on June 24, 1979 in Cambridge, Massachusetts, USA as Vera Mindy Chokalingam. She is an actress and producer, known for The Office (2005), Inside Out (2015) and Late Night (2019).",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling",
+          "Mindy"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:rxMkLaQP9hgJ:https://www.imdb.com/name/nm1411676/+&cd=19&hl=en&ct=clnk&gl=us",
+        "block_position": 4
+      },
+      {
+        "position": 4,
+        "title": "Mindy Kaling Reveals She Gave Birth to Baby No. 2 - E! Online",
+        "link": "https://www.eonline.com/news/1176870/mindy-kaling-reveals-she-gave-birth-to-baby-no-2",
+        "domain": "www.eonline.com",
+        "displayed_link": "https://www.eonline.com › News",
+        "snippet": "Surprise! Mindy Kaling has welcomed her second child, who will join big sister Katherine \"Kit\" Kaling. Get all the details on her newborn below.",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WP8BgjATVF4J:https://www.eonline.com/news/1176870/mindy-kaling-reveals-she-gave-birth-to-baby-no-2+&cd=20&hl=en&ct=clnk&gl=us",
+        "date": "Oct 9, 2020",
+        "date_utc": "2020-10-09T12:00:00.000Z",
+        "block_position": 4
+      },
+      {
+        "position": 5,
+        "title": "Mindy Kaling - Rotten Tomatoes",
+        "link": "https://www.rottentomatoes.com/celebrity/1199063-mindy_kaling",
+        "domain": "www.rottentomatoes.com",
+        "displayed_link": "https://www.rottentomatoes.com › celebrity › 1199063-...",
+        "snippet": "Mindy Kaling went from being an in-demand writer to one of the most unique comedic voices of her generation. A native of Cambridge, Massachusetts, she ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MEb2mW1tZosJ:https://www.rottentomatoes.com/celebrity/1199063-mindy_kaling+&cd=21&hl=en&ct=clnk&gl=us",
+        "block_position": 4
+      },
+      {
+        "position": 6,
+        "title": "Mindy Kaling says her baby boy Spencer is 'happy and healthy'",
+        "link": "https://www.usatoday.com/story/entertainment/celebrities/2020/10/08/surprise-mindy-kaling-reveals-she-gave-birth-second-child-boy/5933180002/",
+        "domain": "www.usatoday.com",
+        "displayed_link": "https://www.usatoday.com › celebrities › 2020/10/08",
+        "snippet": "Surprise! Mindy Kaling revealed she gave birth to her second a child, a boy. The actress revealed Thursday on \"The Late Show With Stephen ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Nt9pN2C0SR0J:https://www.usatoday.com/story/entertainment/celebrities/2020/10/08/surprise-mindy-kaling-reveals-she-gave-birth-second-child-boy/5933180002/+&cd=22&hl=en&ct=clnk&gl=us",
+        "date": "Oct 8, 2020",
+        "date_utc": "2020-10-08T12:00:00.000Z",
+        "block_position": 4
+      },
+      {
+        "position": 7,
+        "title": "Mindy Kaling | Facebook",
+        "link": "https://www.facebook.com/OfficialMindyKaling",
+        "domain": "www.facebook.com",
+        "displayed_link": "https://www.facebook.com › OfficialMindyKaling",
+        "snippet": "Mindy Kaling. 871864 likes · 25519 talking about this. Mindy Kaling is an actress, comedian, writer, producer & shopper. She can translate Latin & is...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling",
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:isBblJ8euL0J:https://www.facebook.com/OfficialMindyKaling+&cd=23&hl=en&ct=clnk&gl=us",
+        "block_position": 4
+      },
+      {
+        "position": 8,
+        "title": "Who is the Father of Mindy Kaling's Kids?",
+        "link": "https://www.cheatsheet.com/entertainment/who-is-the-father-of-mindy-kalings-kids.html/",
+        "domain": "www.cheatsheet.com",
+        "displayed_link": "https://www.cheatsheet.com › Entertainment",
+        "snippet": "Mindy Kaling has been known to balance multiple things at once. Though she was introduced to most people as Kelly Kapoor on The Office, ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:17V48b-lnjIJ:https://www.cheatsheet.com/entertainment/who-is-the-father-of-mindy-kalings-kids.html/+&cd=24&hl=en&ct=clnk&gl=us",
+        "date": "6 days ago",
+        "date_utc": "2021-04-23T12:00:00.000Z",
+        "block_position": 4
+      },
+      {
+        "position": 9,
+        "title": "Mindy Kaling and BJ Novak's Relationship - Mindy Kaling ...",
+        "link": "https://parade.com/1102173/jessicasager/mindy-kaling-bj-novak-relationship/",
+        "domain": "parade.com",
+        "displayed_link": "https://parade.com › jessicasager › mindy-kaling-bj-novak...",
+        "snippet": "Mindy Kaling and B.J. Novak's relationship is complex. Everyone wants to know if he's Mindy Kaling's ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Mindy Kaling",
+          "Mindy Kaling's"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:x123zfiK_bMJ:https://parade.com/1102173/jessicasager/mindy-kaling-bj-novak-relationship/+&cd=5&hl=en&ct=clnk&gl=us",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {
+              "symbol": "m",
+              "currency": {
+                "name": "Turkmenistan Manat",
+                "code": "TMT",
+                "symbol": "m"
+              }
+            },
+            "extensions": [
+              "Mar 12, 2021",
+              "Uploaded by Penguin Random House"
+            ]
+          }
+        },
+        "block_position": 4
+      }
+    ],
+    "pagination": {
+      "next": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=10&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8NMDegQIARBK",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=10&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARA4",
+        "3": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=20&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARA6",
+        "4": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=30&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARA8",
+        "5": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=40&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARA-",
+        "6": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=50&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARBA",
+        "7": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=60&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARBC",
+        "8": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=70&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARBE",
+        "9": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=80&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARBG",
+        "10": "https://www.google.com/search?q=mindy+kaling&gl=us&hl=en&ei=G3yKYO2FN5rS1fAPo_aFuAg&start=90&sa=N&ved=2ahUKEwit_4LikaPwAhUaaRUIHSN7AYcQ8tMDegQIARBI"
+      },
+      "api_pagination": {
+        "next": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=2",
+        "other_pages": {
+          "2": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=2",
+          "3": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=3",
+          "4": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=4",
+          "5": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=5",
+          "6": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=6",
+          "7": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=7",
+          "8": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=8",
+          "9": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=9",
+          "10": "https://api.serpwow.com/live/search?api_key=demo&q=mindy%20kaling&location=United%20States&recaptcha=03AGdBq27V4N6xR14NZoL8QMftaE-TcrdPq8c2xzGKFw8nShMdR23EGtvg5aMGpbaomlR1NaxBtt6G9vuQvHiNoOHNfVuEK76_77J6_lvk0iOfuxeH6mtJUmNeB-_zfG_0lzdCcHY0itMbyPzbNMnWcJNE89e2iiq7wkEWoEtvO_QYL8HsVYCVcMRSe4xtZDbBpYIUxOverwzC_5owUqinUujYs8cQH-G9sTc2hMhTw_6hKcrzR-U4dCTSC60EhzTuhYHqXJ_67NovAX2AimODnZRrdzfV-p7HpF3JvWYxgY6FZLCkXOgh7IBSU_VSZuH8_Qub-tp4RNoYZ-811JB3rhGEmOI3iE6uJD072OfWuHUymFsQew6Z84sE5Wnya5pu_DjMeRgpiV53DwG40RNYigK9Ux5xRXy0eNFzot8k-UG26UPgr57Uf6dNGlRhIKPBE4QNrJCzz9HH&include_html=true&engine=google&page=10"
+        }
+      }
+    }
+  }

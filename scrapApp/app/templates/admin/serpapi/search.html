@@ -47,7 +47,7 @@
         <form action="{% url 'google_list' %}" method="post">
             {% csrf_token %}
             <button class="btn btn-warning" id="checkAll" type="button">All Check</button>
-            <button class="btn btn-primary" type="submit">Upload</button>
+            <button class="btn btn-primary" type="submit" style="float: right;" id="DDL" disabled="disabled">Upload</button>
 
             <input type="hidden" name="keyword_id" value="{{ id }}">
             <hr>
@@ -59,7 +59,7 @@
                             {% if row in all_links %}
                             {{ row }}
                             {% else %}
-                            <input type="checkbox" name="links" value="{{ row }}">{{ row }}<a href="{{ row }}"
+                            <input type="checkbox" name="links" value="{{ row }}" onclick="Enableddl(this)">{{ row }}<a href="{{ row }}"
                                                                                               target="_blank"><i
                                 class="ml-1 fas fa-external-link-alt"></i></a>
                             {% endif %}
@@ -84,13 +84,28 @@ $(function () {
 
     var clicked = false;
     $("#checkAll").on("click", function() {
-        console.log('hello');
         $('input:checkbox').prop("checked", !clicked);
         clicked = !clicked;
+        var ddl = document.getElementById("DDL")
+            ddl.disabled = clicked ? false : true;
+            if(!ddl.disabled){
+                ddl.focus();
+            }
         this.innerHTML = clicked ? 'Unchecked All' : 'Check All';
     });
 });
 
+function Enableddl(chkddl){
+    var ddl = document.getElementById("DDL")
+    ddl.disabled = chkddl.checked ? false : true;
+    if(!ddl.disabled){
+        ddl.focus();
+    }
+}
+
+$(function() {
+        $('.alert').delay(3000).fadeOut();
+});
 
 </script>
 {% endblock %}

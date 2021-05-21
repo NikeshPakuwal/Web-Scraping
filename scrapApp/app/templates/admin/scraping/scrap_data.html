@@ -1,0 +1,237 @@
+{%  extends 'admin/base_site.html' %}
+
+{% block title %}{{title}}{%endblock%}
+
+
+{% block content %}
+<style>
+    .google_jsonData table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+        background-color: transparent;
+        border: 1px solid #dee2e6;
+    }
+    .google_jsonData  table th {
+        white-space: pre;
+    }
+    .google_jsonData table td, .google_jsonData table th {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+    .google_jsonData table td, .google_jsonData table th {
+        border: 1px solid #dee2e6;
+    }
+    .google_jsonData table td {
+        word-break: break-all;
+    }
+    .google_jsonData ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .google_jsonData table tbody > tr {
+        display: block;
+    }
+
+    /* .google_jsonData table tbody > tr > th, 
+    .google_jsonData table tbody > tr > td {
+        display: block;
+    } */
+</style>
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">{{title}}</h3>
+        </div>
+
+        <div class="card-body">
+            
+            <form action="{% url 'scrap_data' %}" method="POST">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter your keyword here">
+                    </div>
+
+                    <div class="col-md-4">
+                        {% load countries %}
+                        {% get_countries as countries %}
+                        <select class="form-control" name="country">
+                            <option value="United States">United States</option>
+                            {% for country in countries %}
+                                <option value="{{ country.name }}">{{ country.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button class="btn btn-primary"><i class="fas fa-search"></i>&nbsp Search</button>
+                    </div>
+                         
+                </div>
+
+            </form>
+
+            <hr>
+
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tags }}" id="msg" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+
+            <div class="google_jsonData">
+                <form action="#" method="post">
+                    {% csrf_token %}
+                    <button class="btn btn-warning" id="checkAll" type="button">Check All</button>
+                    <button class="btn btn-primary" type="submit" style="float: right;" id="DDL" disabled="disabled">Upload</button>
+
+                    <hr>
+
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Search Parameters</th>
+                                <td>{{ keyword_find.search_parameters }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Request Information</th>
+                                <td>{{ keyword_find.request_info }}</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">Knowledge Graph</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Title</th>
+                                <td><input type="checkbox" name="title" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.title }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Type</th>
+                                <td><input type="checkbox" name="type" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.type }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Images</th>
+                                <td><input type="checkbox" name="images" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.images }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Source</th>
+                                <td><input type="checkbox" name="source" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.source }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Description</th>
+                                <td><input type="checkbox" name="description" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.description }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Born</th>
+                                <td><input type="checkbox" name="born" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.born }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Height</th>
+                                <td><input type="checkbox" name="height" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.height }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Books</th>
+                                <td><input type="checkbox" name="books" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.books }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Education</th>
+                                <td><input type="checkbox" name="education" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.education }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Chldren</th>
+                                <td><input type="checkbox" name="children" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.children }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Known Attributes</th>
+                                <td><input type="checkbox" name="known_attributes" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.known_attributes }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Profiles</th>
+                                <td><input type="checkbox" name="profiles" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.profiles }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">People also search for</th>
+                                <td><input type="checkbox" name="people_also_search_for" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.knowledge_graph.people_also_search_for }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Related Searches</th>
+                                <td><input type="checkbox" name="related_searches" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.related_searches }}</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">Related Questions</th>
+                                <td><input type="checkbox" name="related_questions" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;
+                                    {% for items in keyword_find.related_questions  %}
+                                        {{items}}
+                                    {% endfor %}
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th colspan="2">Organic Results</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Organic Result</th>
+                                <td><input type="checkbox" name="organic_results" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;
+                                    {% for items in keyword_find.organic_results %}
+                                        {{ items }}
+                                    {% endfor %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Pagination</th>
+                                <td><input type="checkbox" name="pagination" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.pagination }}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Search Metdata</th>
+                                <td><input type="checkbox" name="search_metadata" value="{{ keyword_find }}" onclick="Enableddl(this)"/>&nbsp;{{ keyword_find.search_metadata }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+
+    $(function () {
+        var clicked = false;
+        $("#checkAll").on("click", function() {
+            $('input:checkbox').prop("checked", !clicked);
+            clicked = !clicked;
+            var ddl = document.getElementById("DDL")
+                ddl.disabled = clicked ? false : true;
+                if(!ddl.disabled){
+                    ddl.focus();
+                }
+            this.innerHTML = clicked ? 'Unchecked All' : 'Check All';
+        });
+    });
+
+    function Enableddl(chkddl){
+        var ddl = document.getElementById("DDL")
+        ddl.disabled = chkddl.checked ? false : true;
+        if(!ddl.disabled){
+            ddl.focus();
+        }
+    }
+
+    $(function() {
+        $('.alert').delay(3000).fadeOut();
+});
+
+</script>
+
+<script async src="https://cse.google.com/cse.js?cx=77d3cf40a94d6d290"></script>
+
+{% endblock %}

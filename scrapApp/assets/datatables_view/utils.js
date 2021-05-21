@@ -463,9 +463,18 @@ window.DatatablesViewUtils = (function() {
 
             var selector = $('.date-control').children().first();
             selector.datepicker();
+            initCheckbox();
         })
     }
 
+    function initCheckbox(){
+        var clicked = false;
+        $(".checkall").on("click", function() {
+            $('input:checkbox').prop("checked", !clicked);
+            clicked = !clicked;
+            this.innerHTML = clicked ? 'Unchecked All' : 'Check All';
+        });
+}
 
     function redraw_all_tables() {
         $.fn.dataTable.tables({

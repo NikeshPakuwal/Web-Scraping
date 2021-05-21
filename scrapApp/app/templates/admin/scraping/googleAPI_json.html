@@ -1,0 +1,36 @@
+{%  extends 'admin/base_site.html' %}
+
+{% block title %}{{title}}{%endblock%}
+
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">{{title}}</h3>
+        </div>
+
+        <div class="card-body">
+            
+            <form action="#" method="POST">
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter your keyword here">
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary"><i class="fas fa-search"></i>&nbsp Search</button>
+                    </div>
+                         
+                </div>
+
+            </form>
+
+            <hr>
+
+            {{keyword_search}}
+
+        </div>
+    </div>
+
+{% endblock %}
+

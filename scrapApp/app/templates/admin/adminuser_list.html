@@ -1,0 +1,94 @@
+{% extends "admin/base.html"%}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<div class="card ">
+    <div class="card-header">
+        <h3 class="card-title">{{title}}</h3>
+        <a href="/admin/auth/user/add/">
+            <button class="add_item btn btn-success btn-sm" style="float: right;">Add New User</button>
+        </a>
+    </div>
+    <div class="card-body p-0">
+
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        <table class="table table-bordered" id="user-table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Last Login</th>
+                    <th>Action</th>
+        
+                </tr>
+            </thead>
+            <tbody>
+                {% for datafeild in data %}
+                <tr>
+                    <td>{{datafeild.id}}</td>
+                    <td>{{datafeild.username}}</td>
+                    <td>{{datafeild.email}}</td>
+                    <td>{{datafeild.last_login}}</td>
+                    <td> &nbsp<a href="/admin/user/{{datafeild.id}}/view"><i class="fas fa-eye"></i></a> &nbsp &nbsp <a href="/admin/user/{{datafeild.id}}/edit"><i class="fas fa-pen-fancy"></i></a> &nbsp &nbsp <a class="delete-button" cid='/admin/auth/user/{{datafeild.id}}/delete/'><i class="fas fa-trash-alt"></i></a></td>
+
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>    
+
+{% endblock content %}
+
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+    $(document).on("click", ".delete-button" , function() {
+        event.preventDefault();
+        var _button = $(this);
+        var nurl = _button.attr("cid");
+        bootbox.confirm({
+            title: "Delete record?",
+            message: "Do you want to delete? This cannot be undone.",
+            buttons: {
+                cancel: {
+                    label: '<i class="fa fa-times"></i> Cancel',
+                },
+                confirm: {
+                    label: '<i class="fa fa-check"></i> Confirm',
+                },
+            },
+            callback: function (result) {
+                if(result){
+                    data = {
+                        csrfmiddlewaretoken: "{{ csrf_token }}",
+                    };
+                    var posting = $.post(nurl, data);
+                    posting.done(function (data) {
+                        location.reload();
+                    });
+                    posting.fail(function (data) {
+                        alert("fail");
+                    });
+                }
+            },
+        });
+    });
+
+    $(function() {
+        $('.alert').delay(3000).fadeOut();
+    });
+
+</script>
+{% endblock scripts %}

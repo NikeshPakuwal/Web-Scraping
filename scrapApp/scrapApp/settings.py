@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'datatables_view',
+    'django_countries',
 ]
 
 MIDDLEWARE = [
@@ -80,11 +81,11 @@ LOGOUT_REDIRECT_URL = 'login'
 DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql_psycopg2',
-         'NAME': 'scrapApp',
+         'NAME': 'scrapapp',
          'USER': 'postgres',
-         'PASSWORD': 'root',
+         'PASSWORD': 'qazqwe@123',
          'HOST': '127.0.0.1',
-         'PORT': '2000',
+         'PORT': '5432',
      }
 }
 

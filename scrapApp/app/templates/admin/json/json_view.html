@@ -1,0 +1,287 @@
+{%  extends 'admin/base_site.html' %}
+
+{% block title %}{{title}}{%endblock%}
+
+
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">{{title}}</h3>
+    </div>
+
+    <div class="card-body">
+        <form action="{% url 'json_data_view' %}" method="POST">
+            {% csrf_token %}
+            <div class="col-md-12">
+                <select class="form-control" name="select" id="query_selector">
+                    <option value="" selected disabled>Choose any option</option>
+                    <option value="chadwickboseman">Chadwick Boseman</option>
+                    <option value="kjallen">KJ Allen</option>
+                    <option value="hilaryswank">Hilary Swank</option>
+                    <option value="kevinhart">Kevin Hart</option>
+                    <option value="mindykaling">Mindy Kaling</option>
+                    <option value="billgates">Bill Gates</option>
+                    <option value="bobmarley">Bob Marley</option>
+                    <option value="khabibnurmagomdov">Khabib Nurmagomedov</option>
+                    <option value="kobebryant">Kobe Bryant</option>
+                    <option value="miketyson">Mike Tyson</option>
+                    <option value="pele">Pele</option>
+                </select>
+            </div>
+        </form>
+        
+        <hr>
+
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}" id="msg" role="alert">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        <div class="google_jsonData">
+            <form action="{% url 'json_data_store' %}" method="POST">
+                {% csrf_token %}
+                <button class="btn btn-warning" id="checkAll" type="button">Check All</button>
+                <button class="btn btn-primary" type="submit" style="float: right;" id="DDL" >Upload</button>
+
+                <hr>
+                
+                {% if data %}
+                <ul class="d-flex p-2 d-flex list-unstyled">
+                    <li style="margin-right: 5px;"><b>Search Parameters :</b>&nbsp; &nbsp;</li>
+                    <li>Keyword : &nbsp;{{ data.search_parameters.q }}&nbsp; &nbsp;</li>
+                    <li>Location : &nbsp;{{ data.search_parameters.location }} &nbsp; &nbsp;</li>
+                    <li>Search Engine : &nbsp;{{ data.search_parameters.engine }}</li>
+                </ul>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <table class="table">
+                            <th scope="row">Related Searches</th>
+                            <td>
+                                
+                                {% for items in data.related_searches  %}
+                                    <input type="checkbox" name="related_searches []" value="{{items}}"/>&nbsp;
+                                    <span>&nbsp;<a href="{{items.link}}">{{items.query}}</a></span>
+                                {% endfor %}
+                            </td>
+                        </table>
+                        <hr>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Related Questions</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    
+                                    {% for items in data.related_questions  %}
+                                    <li>
+                                        <input type="checkbox" name="related_questions []" value="{{items}}}"/>&nbsp;
+                                        <span>&nbsp;<a href="{{items.source.link}}">{{items.question}}</a></span> &nbsp; &nbsp;
+                                        <span>Answer :&nbsp;<a href="{{items.source.displayed_link}}">{{items.answer}}</a></span> &nbsp; &nbsp;
+                                        <span>Title :&nbsp;{{items.source.title}}</span>
+                                    </li>
+
+                                    {% endfor %}
+                                </ul>
+
+                            </div>
+                        </div>  
+                        <hr>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Organic Result</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    
+                                    {% for items in data.organic_results %}
+                                    <li>
+                                        <input type="checkbox" name="organic_results []" value="{{items}}"/>&nbsp;
+                                        <span>Position : &nbsp;{{ items.position }}</span> &nbsp; &nbsp;
+                                        <span>&nbsp;<a href="{{ items.link }}">{{ items.title }}</a></span> &nbsp; &nbsp;
+                                        <span>Displayed Link : &nbsp;<a href="{{ items.displayed_link }}">{{ items.displayed_link }}</a></span> &nbsp; &nbsp;
+                                        <span>Snippet : &nbsp;{{ items.snippet }}</span> &nbsp; &nbsp;
+                                        <span>Prerender : &nbsp;{{ items.prerender }}</span> &nbsp; &nbsp;
+                                        <span>Snippet Matched : &nbsp;{{ items.snippet_matched }}</span> &nbsp; &nbsp;
+                                        <span>Cached Page Link : &nbsp;<a href="{{ items.cached_page_link }}">{{ items.cached_page_link }}</a></span> &nbsp; &nbsp;
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+
+                            </div>
+                        </div>  
+                        <hr>
+
+                        <div class="pagination">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Pagination</h4>
+                                </div>
+                                <div class="card-body">
+                                    <input type="checkbox" name="pagination" value="{{data.pagination}}"/>&nbsp;
+                                    <span>Next : &nbsp;<a href="{{ data.pagination.next }}">{{ data.pagination.next }}</a></span> &nbsp;
+                                    {% for items in data.pagination.other_pages %}
+                                        <a href="{{ items }}">{{ items }}</a> &nbsp; &nbsp;
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Knowledge Graph</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <input hidden name="title" value="{{ data.knowledge_graph.title }}"/>&nbsp;
+                                        <h4>{{ data.knowledge_graph.title }}</h4> 
+                                    </li>
+                                    <li>
+                                        <input hidden name="type" value="{{ data.knowledge_graph.type }}"/>&nbsp;{{ data.knowledge_graph.type }}
+                                    </li>
+                                    <li>
+                                        {% for images in data.knowledge_graph.images %}
+                                            <input type="checkbox" name="images []" value="{{images}}"/>&nbsp;
+                                            <img src="{{ images }}"> &nbsp; &nbsp; &nbsp;
+                                        {% endfor %}
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="source" value="{{ data.knowledge_graph.source }}"/>&nbsp; 
+                                        <span>Name : &nbsp; <a href="{{ data.knowledge_graph.source.link }}">{{ data.knowledge_graph.source.name }}</a></span>
+                                    </li>
+                                    <li>
+                                        <hr> 
+                                        <input type="checkbox" name="description" value="{{ data.knowledge_graph.description }}"/>&nbsp; 
+                                        <p>{{ data.knowledge_graph.description }}</p>    
+                                    </li>
+                                    <li>
+                                        <span>Born</span>
+                                        <span><input type="checkbox" name="born" value="{{ data.knowledge_graph.born }}"/>&nbsp;{{ data.knowledge_graph.born }}</span>
+                                    </li>
+                                    <li>
+                                        <span>Height</span>
+                                        <span><input type="checkbox" name="height" value="{{ data.knowledge_graph.height }}"/>&nbsp;{{ data.knowledge_graph.height }}</span>
+                                    </li>
+                                    <li>
+                                        <span>Books</span>
+                                        <span>
+                                            {% for items in data.knowledge_graph.books %}
+                                                <input type="checkbox" name="books []" value="{{items}}"/>&nbsp;
+                                                <a href="{{items.link}}">{{items.name}}</a> &nbsp; &nbsp;
+                                            {% endfor %}
+                                            
+                                        </span>
+                                    </li>  
+                                    <li>
+                                        <span>Education</span>
+                                        <span>
+                                            <input type="checkbox" name="education" value="{{ data.knowledge_graph.education }}"/>&nbsp;{{ data.knowledge_graph.education }}
+                                        </span>
+                                    </li>  
+                                    <li>
+                                        <span>Children</span>
+                                        <span>
+                                            
+                                            {% for items in data.knowledge_graph.children %}
+                                                <input type="checkbox" name="children []" value="{{items}}"/>&nbsp;
+                                                <a href="{{items.link}}">{{items.name}}</a> &nbsp; &nbsp;
+                                            {% endfor %}
+                                        </span>
+                                    </li>  
+                                    <li>
+                                        <span>Known Attributes</span>
+                                        
+                                        {% for items in data.knowledge_graph.known_attributes %}
+                                            <input type="checkbox" name="known_attributes []" value="{{items}}"/>&nbsp;
+                                            <span>Attribute : &nbsp;{{items.attribute}}</span>&nbsp; &nbsp;
+                                            <span>Value : &nbsp;{{items.value}}</span>&nbsp; &nbsp;
+                                            <span>Name : &nbsp;<a href="{{items.link}}">{{items.name}}</a></span>&nbsp; &nbsp;
+                                        {% endfor %}
+                                    </li> 
+                                    <li>
+                                        <span>Profiles</span>
+                                        <span>
+                                            
+                                            {% for items in data.knowledge_graph.profiles %}
+                                                <input type="checkbox" name="profiles []" value="{{items}}"/>&nbsp;
+                                                <span>&nbsp; <a href="{{items.link}}">{{items.name}}</a> </span>
+                                            {% endfor %}
+                                        </span>
+                                    </li> 
+                                    <li>
+                                        <span><b>People also search for</b></span> 
+                                        <span>
+                                            
+                                            {% for items in data.knowledge_graph.people_also_search_for %}
+                                                <input type="checkbox" name="people_also_search_for []" value="{{items}}"/>&nbsp;
+                                                <span>Name : &nbsp;{{items.name}}</span>
+                                            {% endfor %}
+                                        </span>
+                                    </li>                         
+                                </ul>  
+
+                            </div>
+                        </div>  
+                    </div>  
+                </div>  
+
+
+
+                {% else %}
+                {% endif %}
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+
+    $(function () {
+        var clicked = false;
+        $("#checkAll").on("click", function() {
+            $('input:checkbox').prop("checked", !clicked);
+            clicked = !clicked;
+            // var ddl = document.getElementById("DDL")
+            // ddl.disabled = clicked ? false : true;
+            // if(!ddl.disabled){
+            //     ddl.focus();
+            // }
+            this.innerHTML = clicked ? 'Unchecked All' : 'Check All';
+        });
+    });
+
+    // function Enableddl(chkddl){
+    //     var ddl = document.getElementById("DDL")
+    //     ddl.disabled = chkddl.checked ? false : true;
+    //     if(!ddl.disabled){
+    //         ddl.focus();
+    //     }
+    // }
+
+
+    $(function() {
+        $('.alert').delay(3000).fadeOut();
+    });
+
+
+    $('#query_selector').change(function ()
+    {
+        $(this).closest('form').submit();
+    });
+
+</script>
+
+<script async src="https://cse.google.com/cse.js?cx=77d3cf40a94d6d290"></script>
+
+{% endblock %}

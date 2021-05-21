@@ -20,7 +20,8 @@ class SemrushGetLinks(View):
         title = 'Google Links Upload'
         query = keyword
 
-        search_keyword = search(query, tld="co.in", num=10, stop=10, pause=2)
+        # search_keyword = search(query, tld="co.in", num=10, stop=10, pause=2)
+        search_keyword = search(query, tld="com", num=10, stop=10, pause=2)
         list_keyword=[]
         for row in search_keyword:
             list_keyword.append(row)
@@ -81,11 +82,10 @@ class GoogleList(View):
 
 class GoogleLinksAjax(View):
 
-
     def post(self, request):
         URL = "http://api.proxiesapi.com"
 
-        auth_key = "8aaf4535c3d7b6e0efd39ffe898f6efa_sr98766_ooPq87"
+        auth_key = "7775af0883e403342a09156ab071738d_sr98766_ooPq87"
         session = "444"
 
         ids = request.POST.getlist('id[]')
@@ -145,7 +145,7 @@ class GoogleLinksAjax(View):
         elif html.find("div", {
             'class': ['wrap-content-main', 'post_the_content', 'mw-parser-output', 'descContainer', 'content']}):
             description = html.find(True, {
-                'class': ['wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
+            'class': ['wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
         elif html.find("main", id_='main'):
             description = html.find("main")
         elif html.find("p"):
@@ -194,9 +194,13 @@ class LinksDatataleView(DatatablesView):
         row['sn'] = '<input type="checkbox" name="chk_list" class="checklist" data-cid="%s" id="chk_%s">' % (
         obj.id, obj.id)
         # row['Action'] = '<a href="/%s" class="btn btn-primary"><i class="fas fa-pen"></i></a>' % obj.id
-        row['Action'] = '<a data-url="%s" class="btn btn-danger delete_button">%s</a>' % (
-            reverse_lazy('semrush_delete', args=(obj.id,)),
+        row['Action'] = '<a cid="%s" class="btn btn-danger delete-button">%s</a>' % (
+            reverse_lazy('googlelink_delete', args=(obj.id,)),
             '<i class="fas fa-trash-alt"></i>'
         )
-
         return
+
+def GoogleLinksDelete(request, pk):
+    data = UploadGoogleDataLink.objects.get(id=pk)
+    data.delete()
+    return redirect(reverse_lazy('list_links'))

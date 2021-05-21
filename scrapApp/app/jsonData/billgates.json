@@ -1,0 +1,505 @@
+{
+    "search_parameters": {
+      "q": "bill gates",
+      "location": "United States",
+      "include_html": "true",
+      "engine": "google"
+    },
+    "search_information": {
+      "total_results": 468000000,
+      "time_taken_displayed": 0.65,
+      "query_displayed": "bill gates"
+    },
+    "inline_videos": [
+      {
+        "title": "Bill Gates On Transitioning From Microsoft To Philanthropy ...",
+        "link": "https://www.youtube.com/watch?v=_uH3Q-VHNbY",
+        "length": "1:27",
+        "source": "YouTube - Forbes",
+        "date": "1 day ago",
+        "date_utc": "2021-05-09T12:00:00.000Z",
+        "block_position": 11
+      },
+      {
+        "title": "World Today | G7 London Meet; Bill Gates & Melinda Gates ...",
+        "link": "https://www.youtube.com/watch?v=ngGaPv9f8pw",
+        "length": "22:55",
+        "source": "YouTube - India Today",
+        "date": "1 day ago",
+        "date_utc": "2021-05-09T12:00:00.000Z",
+        "block_position": 11
+      },
+      {
+        "title": "The next outbreak? We're not ready | Bill Gates",
+        "link": "https://www.youtube.com/watch?v=6Af6b_wyiwI",
+        "length": "10 key moments in this video",
+        "source": "YouTube - TED",
+        "date": "Apr 3, 2015",
+        "date_utc": "2015-04-03T12:00:00.000Z",
+        "block_position": 11
+      }
+    ],
+    "top_stories": [
+      {
+        "link": "https://www.wsj.com/articles/melinda-gates-was-meeting-with-divorce-lawyers-since-2019-to-end-marriage-with-bill-gates-11620579924",
+        "title": "Melinda Gates Was Meeting With Divorce Lawyers Since 2019 to End Marriage With Bill Gates",
+        "visible_initially": true,
+        "source": "Wall Street Journal",
+        "date": "16 hours ago",
+        "date_utc": "2021-05-09T17:10:17.000Z",
+        "block_position": 1
+      },
+      {
+        "link": "https://www.foxbusiness.com/lifestyle/melinda-gates-concerns-bills-possible-ties-jeffrey-epstein",
+        "title": "Melinda Gates had concerns over Bill's possible ties to Jeffrey Epstein: report",
+        "visible_initially": true,
+        "source": "Fox Business",
+        "date": "14 hours ago",
+        "date_utc": "2021-05-09T19:10:17.000Z",
+        "block_position": 1
+      },
+      {
+        "link": "https://gizmodo.com/melinda-gates-called-divorce-lawyers-in-2019-after-nyti-1846857668",
+        "title": "Melinda Gates Called Divorce Lawyers in 2019 After NYTimes Revealed Bill's Ties to Jeffrey Epstein: WSJ",
+        "visible_initially": true,
+        "source": "Gizmodo",
+        "date": "10 mins ago",
+        "date_utc": "2021-05-10T09:00:17.000Z",
+        "block_position": 1
+      }
+    ],
+    "top_stories_extra": {
+      "more_news_link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQt8YBegQIBhAD"
+    },
+    "knowledge_graph": {
+      "title": "Bill Gates",
+      "type": "American business magnate",
+      "images": [
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkurXT_2eOzKog-45IXl9STNSIfOpJ1UaMPFhugHEPGw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDodglgyXh8h5XW0ygREc24LUZeCRMaDpVIvwYpfAbiw&s"
+      ],
+      "website": "https://www.gatesnotes.com/",
+      "source": {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Bill_Gates"
+      },
+      "description": "William Henry Gates III is an American business magnate, software developer, investor, author, and philanthropist. He is the co-founder of Microsoft Corporation.",
+      "born": "October 28, 1955 (age 65 years), Seattle, WA",
+      "spouse": "Melinda Gates (m. 1994–2021)",
+      "net_worth": "129.7 billion USD (2021)",
+      "books": "View 5+ more",
+      "children": [
+        {
+          "name": "Rory John Gates",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Rory+John+Gates&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK1HiArGM8uLTK8y1pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVv6g_KJKBa_8jDwF98SS1OIdrIwAw5g6Q0kAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQmxMoATA3egQIQRAD"
+        },
+        {
+          "name": "Jennifer Katharine Gates",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Jennifer+Katharine+Gates&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK1HiArGMik2rzCy1pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVgmv1Ly8zLTUIgXvxJKMxKLMvFQF98SS1OIdrIwAzo2ZolIAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQmxMoAjA3egQIQRAE"
+        },
+        {
+          "name": "Phoebe Adele Gates",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Phoebe+Adele+Gates&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK1HiArGM8uLTK9K1pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVqGAjPzUpFQFx5TUnFQF98SS1OIdrIwAXHPK_0wAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQmxMoAzA3egQIQRAF"
+        }
+      ],
+      "known_attributes": [
+        {
+          "attribute": "kc:/people/person:net worth",
+          "value": "129.7 billion USD (2021), Trending",
+          "name": "Net worth",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+net+worth&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK9GSzk620i9IzS_ISQVSRcX5eVZ5qSUK5flFJRmLWEWSMnNyFNITS1KLFeDCAM9_Xi1AAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ6BMoADA0egQIRxAC"
+        },
+        {
+          "attribute": "kc:/people/person:born",
+          "value": "October 28, 1955 (age 65 years), Seattle, WA",
+          "name": "Born",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+born&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK9ESy0620i9IzS_ISQVSRcX5eVZJ-UV5i1j5kzJzchTSE0tSixVAIgB7lxuyNgAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ6BMoADA1egQIRRAC"
+        },
+        {
+          "attribute": "kc:/people/person:spouse",
+          "value": "Melinda Gates (m. 1994–2021)",
+          "name": "Spouse",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+spouse&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK9GSyE620i9IzS_ISQVSRcX5eVbFBfmlxamLWAWTMnNyFNITS1KLFSBiAGKiWBc6AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ6BMoADA2egQIRBAC"
+        },
+        {
+          "attribute": "kc:/people/person:children",
+          "value": "Rory John Gates, Jennifer Katharine Gates, Phoebe Adele Gates",
+          "name": "Children",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+children&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDTPK9GSyk620i9IzS_ISQVSRcX5eVbJGZk5KUWpeYtYhZMyc3IU0hNLUosVYKIAeckSvj4AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ6BMoADA3egQIQRAC"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Twitter",
+          "value": "https://twitter.com/BillGates",
+          "link": "https://twitter.com/BillGates"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Facebook",
+          "value": "https://www.facebook.com/BillGates",
+          "link": "https://www.facebook.com/BillGates"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "LinkedIn",
+          "value": "https://www.linkedin.com/in/williamhgates",
+          "link": "https://www.linkedin.com/in/williamhgates"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "Instagram",
+          "value": "https://www.instagram.com/thisisbillgates",
+          "link": "https://www.instagram.com/thisisbillgates"
+        },
+        {
+          "attribute": "kc:/common/topic:social media presence",
+          "name": "YouTube",
+          "value": "https://www.youtube.com/user/thegatesnotes",
+          "link": "https://www.youtube.com/user/thegatesnotes"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "Books",
+          "value": "Books",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+books&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1GCs7SkspOt9JPy87P1E0tLMvKLrEDsYoX8vJzKRawCSZk5OQrpiSWpxQpg8R2sjAB9_hJ9SAAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQMSgAMDl6BAg-EAE"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "View 5+ more",
+          "value": "View 5+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+books&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1GCs7SkspOt9JPy87P1E0tLMvKLrEDsYoX8vJzKRawCSZk5OQrpiSWpxQpg8R2sjAB9_hJ9SAAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzTooATA5egQIPhAC"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "How to Avoid a Climate...",
+          "value": "How to Avoid a Climate...2021",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=How+to+Avoid+a+Climate+Disaster&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1Hi1U_XNzTMMC_Ojk82jNcScCwtycgvCsl3ys_P9s_LqVzEKu-RX65Qkq_gWJafmaKQqOCck5mbWJKq4JJZnFhcklq0g5URAJOxl8xSAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wOXoECD4QBQ"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "The Road Ahead",
+          "value": "The Road Ahead1995",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=The+Road+Ahead&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1HiBLOKC9PLtQQcS0sy8otC8p3y87P983IqF7HyhWSkKgTlJ6YoOGakJqbsYGUEAGh3xz09AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wOXoECD4QBw"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "Business @ the Speed of...",
+          "value": "Business @ the Speed of...1999",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Business+%40+the+Speed+of+Thought&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1HiBLMq0rJztQQcS0sy8otC8p3y87P983IqF7HKO5UWZ-alFhcrOCiUZKQqBBekpqYo5KcphGTkl6ZnlOxgZQQAvwOUaU4AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wOXoECD4QCQ"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "Unleashing the Power of Creati...",
+          "value": "Unleashing the Power of Creati...2006",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Unleashing+the+Power+of+Creativity:+A+%22This+I+Believe%22+Essay+Bill+Gates&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1Hi1U_XNzRMT7fMKcqNT9YScCwtycgvCsl3ys_P9s_LqVzE6h6al5OaWJyRmZeuUJKRqhCQX55apJCfpuBclJpYklmWWVJppeCooBSSkVms4KnglJqTmVqWqqTgWlycWKnglJmTo-CeWJJavIOVEQCMZTpMegAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wOXoECD4QCw"
+        },
+        {
+          "attribute": "kc:/book/author:books only",
+          "name": "Plpr3: Road Ahead, t...",
+          "value": "Plpr3: Road Ahead, t...2008",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Plpr3:+Road+Ahead,+the+CD+for+Pack+RLA+Bill+Gates&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1Hi1U_XNzRMq8oqM0pLNtYScCwtycgvCsl3ys_P9s_LqVzEahiQU1BkbKUQlJ-YouCYkZqYoqNQkpGq4OyikJZfpBCQmJytEOTjqOCUmZOj4J5Yklq8g5URAJR20htkAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wOXoECD4QDQ"
+        },
+        {
+          "attribute": "kc:/people/person:quote",
+          "name": "Quotes",
+          "value": "Quotes",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bill+gates+quotes&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1GCs7TEs5Ot9AtS8wtyUoFUUXF-nlVhaX5J6iJWwaTMnByF9MSS1GIFsFAxAGswWQJDAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQMTA6egQIOBAC"
+        },
+        {
+          "attribute": "kc:/people/person:quote",
+          "name": "View 7+ more",
+          "value": "View 7+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates+Quotes&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQh1swOnoECDgQBg"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "People also search for",
+          "value": "People also search for",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1GCs7SkspOt9AtS8wtyUoFUUXF-nlVxZkpqeWJl8SJWLqfMnBwF98SS1OIdrIwAIJcRykIAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQMSgAMDt6BAg9EAE"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "View 15+ more",
+          "value": "View 15+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1GCs7SkspOt9AtS8wtyUoFUUXF-nlVxZkpqeWJl8SJWLqfMnBwF98SS1OIdrIwAIJcRykIAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzTooATA7egQIPRAC"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Melinda Gates",
+          "value": "Melinda Gates",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Melinda+Gates&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1ECs1JyC0y0-AJSi4rz84IzU1LLEyuLF7Hy-qbmZOalJCq4J5akFu9gZQQADa7m_jkAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wO3oECD0QBQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Jeff Bezos",
+          "value": "Jeff Bezos",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Jeff+Bezos&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1HiBLMMq8wstfgCUouK8_OCM1NSyxMrixexcnmlpqUpOKVW5RfvYGUEAPej3Ks3AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wO3oECD0QBw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Steve Jobs",
+          "value": "Steve Jobs",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Steve+Jobs&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1ECs8wqjYu0-AJSi4rz84IzU1LLEyuLF7FyBZeklqUqeOUnFe9gZQQAdlibUzYAAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wO3oECD0QCQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Mark Zuckerberg",
+          "value": "Mark Zuckerberg",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Mark+Zuckerberg&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1HiBLEszFLyKrX4AlKLivPzgjNTUssTK4sXsfL7JhZlK0SVJmenFiWlFqXvYGUEAKVnMyI8AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wO3oECD0QCw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Elon Musk",
+          "value": "Elon Musk",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Elon+Musk&stick=H4sIAAAAAAAAAONgFuLQz9U3MDTPK1HiBLGM86rSDLX4AlKLivPzgjNTUssTK4sXsXK65uTnKfiWFmfvYGUEAKZ11TU2AAAA&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQxA0wO3oECD0QDQ"
+        }
+      ],
+      "profiles": [
+        {
+          "name": "Twitter",
+          "link": "https://twitter.com/BillGates"
+        },
+        {
+          "name": "Facebook",
+          "link": "https://www.facebook.com/BillGates"
+        },
+        {
+          "name": "LinkedIn",
+          "link": "https://www.linkedin.com/in/williamhgates"
+        },
+        {
+          "name": "Instagram",
+          "link": "https://www.instagram.com/thisisbillgates"
+        },
+        {
+          "name": "YouTube",
+          "link": "https://www.youtube.com/user/thegatesnotes"
+        }
+      ],
+      "block_position": 3,
+      "people_also_search_for": [
+        {
+          "name": "Melinda Gates"
+        },
+        {
+          "name": "Jeff Bezos"
+        },
+        {
+          "name": "Steve Jobs"
+        },
+        {
+          "name": "Mark Zuckerberg"
+        },
+        {
+          "name": "Elon Musk"
+        }
+      ]
+    },
+    "related_searches": [
+      {
+        "query": "bill and melinda gates",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+and+Melinda+Gates&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwInoECDoQAQ"
+      },
+      {
+        "query": "bill gates money",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates+money&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwI3oECD8QAQ"
+      },
+      {
+        "query": "bill gates biography",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates+biography&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwJHoECDwQAQ"
+      },
+      {
+        "query": "bill gates, wife",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates,+wife&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwJXoECDsQAQ"
+      },
+      {
+        "query": "bill gates age",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates+age&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwJnoECEAQAQ"
+      },
+      {
+        "query": "bill gates education",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates+education&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwJ3oECDYQAQ"
+      },
+      {
+        "query": "bill gates' daughter",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bill+Gates%27+daughter&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ1QIwKHoECDUQAQ"
+      }
+    ],
+    "related_questions": [
+      {
+        "question": "What is Bill Gates IQ?",
+        "answer": "160 IQ",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=What+is+Bill+Gates+IQ%3F&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzmd6BAgXEAs",
+          "title": "What is Bill Gates IQ?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "What does Bill Gates do with his money?",
+        "answer": "Instead of spending billions on themselves, they often donate it to charity through the Bill & Melinda Gates Foundation. They've also pledged to give away most of their fortune through the Giving Pledge, which they launched in 2010.",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=What+does+Bill+Gates+do+with+his+money%3F&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzmd6BAgXEA8",
+          "title": "What does Bill Gates do with his money?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Did you know facts about Bill Gates?",
+        "answer": "10 Surprising Facts About Bill Gates. He's the richest man in America (second-richest in the world right now).He co-founded one of the most successful tech companies of all time in Microsoft.He's an extremely generous philanthropist through the Bill & Melinda Gates Foundation.",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Did+you+know+facts+about+Bill+Gates%3F&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzmd6BAgXEBM",
+          "title": "Did you know facts about Bill Gates?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "How is Bill Gates so rich?",
+        "answer": "1﻿ He earned the bulk of his fortune as CEO, chairman, and chief software architect of Microsoft (MSFT). Gates stepped down as chairman in 2014, but still owns 1.34% of the company he co-founded. 2﻿ Here is where this billionaire stashes some of his money.",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=How+is+Bill+Gates+so+rich%3F&sa=X&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQzmd6BAgXEBc",
+          "title": "How is Bill Gates so rich?"
+        },
+        "block_position": 2
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Bill Gates - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Bill_Gates",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org › wiki › Bill_Gates",
+        "snippet": "William Henry Gates III (born October 28, 1955) is an American business magnate, software developer, investor, author, and philanthropist. He is the co-founder of Microsoft Corporation.",
+        "prerender": false,
+        "snippet_matched": [
+          "Gates"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:LkLbZGIKb5IJ:https://en.wikipedia.org/wiki/Bill_Gates+&cd=20&hl=en&ct=clnk&gl=us",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {},
+            "extensions": [
+              "‎Early life",
+              "‎Microsoft",
+              "‎Political positions",
+              "‎Philanthropy"
+            ]
+          }
+        },
+        "block_position": 3
+      },
+      {
+        "position": 2,
+        "title": "Home | Bill Gates",
+        "link": "https://www.gatesnotes.com/",
+        "domain": "www.gatesnotes.com",
+        "displayed_link": "https://www.gatesnotes.com",
+        "snippet": "This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.",
+        "prerender": false,
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1fgzQp_BJ70J:https://www.gatesnotes.com/+&cd=21&hl=en&ct=clnk&gl=us",
+        "block_position": 4
+      },
+      {
+        "position": 3,
+        "title": "Home - Bill & Melinda Gates Foundation",
+        "link": "https://www.gatesfoundation.org/",
+        "domain": "www.gatesfoundation.org",
+        "displayed_link": "https://www.gatesfoundation.org",
+        "snippet": "We are a nonprofit fighting poverty, disease, and inequity around the world.",
+        "prerender": false,
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-Zk09nz2ffMJ:https://www.gatesfoundation.org/+&cd=22&hl=en&ct=clnk&gl=us",
+        "block_position": 5
+      },
+      {
+        "position": 4,
+        "title": "Bill Gates - Forbes",
+        "link": "https://www.forbes.com/profile/bill-gates/",
+        "domain": "www.forbes.com",
+        "displayed_link": "https://www.forbes.com › profile › bill-gates",
+        "snippet": "Bill Gates and his ex-wife Melinda Gates chair the Bill & Melinda Gates Foundation, the world's largest private charitable foundation. On May 3, 2021, Bill and ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bill Gates"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3NM_cWpj7GAJ:https://www.forbes.com/profile/bill-gates/+&cd=26&hl=en&ct=clnk&gl=us",
+        "date": "4 hours ago",
+        "date_utc": "2021-05-10T05:10:17.000Z",
+        "block_position": 7
+      },
+      {
+        "position": 5,
+        "title": "Bill Gates - Home | Facebook",
+        "link": "https://www.facebook.com/BillGates/",
+        "domain": "www.facebook.com",
+        "displayed_link": "https://www.facebook.com › Pages › Public Figure",
+        "snippet": "Bill Gates. 22477585 likes · 661661 talking about this. Co-chair, Bill and Melinda Gates Foundation.",
+        "prerender": false,
+        "snippet_matched": [
+          "Bill Gates"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ukxaRzmmJkQJ:https://www.facebook.com/BillGates/+&cd=27&hl=en&ct=clnk&gl=us",
+        "block_position": 8
+      },
+      {
+        "position": 6,
+        "title": "Bill Gates - Co-chair - Bill & Melinda Gates Foundation | LinkedIn",
+        "link": "https://www.linkedin.com/in/williamhgates",
+        "domain": "www.linkedin.com",
+        "displayed_link": "https://www.linkedin.com › williamhgates",
+        "snippet": "View Bill Gates' profile on LinkedIn, the world's largest professional community. Bill has 2 jobs listed on their profile. See the complete profile on LinkedIn and ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bill Gates"
+        ],
+        "block_position": 9
+      },
+      {
+        "position": 7,
+        "title": "Melinda Gates Was Meeting With Divorce Lawyers Since ...",
+        "link": "https://www.wsj.com/articles/melinda-gates-was-meeting-with-divorce-lawyers-since-2019-to-end-marriage-with-bill-gates-11620579924",
+        "domain": "www.wsj.com",
+        "displayed_link": "https://www.wsj.com › articles › melinda-gates-was-meeti...",
+        "snippet": "The philanthropist had discussions with lawyers in October 2019 around when Bill Gates's ties to Jeffrey Epstein became public.",
+        "prerender": false,
+        "snippet_matched": [
+          "Bill Gates's"
+        ],
+        "date": "16 hours ago",
+        "date_utc": "2021-05-09T17:10:17.000Z",
+        "block_position": 10
+      }
+    ],
+    "pagination": {
+      "next": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=10&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8NMDegQIARBJ",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=10&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARA3",
+        "3": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=20&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARA5",
+        "4": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=30&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARA7",
+        "5": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=40&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARA9",
+        "6": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=50&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARA_",
+        "7": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=60&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARBB",
+        "8": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=70&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARBD",
+        "9": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=80&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARBF",
+        "10": "https://www.google.com/search?q=bill+gates&gl=us&hl=en&ei=d_iYYOGGNb2ZwbkPzeGnqAk&start=90&sa=N&ved=2ahUKEwihnsyq4r7wAhW9TDABHc3wCZUQ8tMDegQIARBH"
+      },
+      "api_pagination": {
+        "next": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=2",
+        "other_pages": {
+          "2": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=2",
+          "3": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=3",
+          "4": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=4",
+          "5": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=5",
+          "6": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=6",
+          "7": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=7",
+          "8": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=8",
+          "9": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=9",
+          "10": "https://api.serpwow.com/live/search?api_key=demo&q=bill%20gates&location=United%20States&recaptcha=03AGdBq27BtJWk0M6Jdis88Uk-GPqSstBUjDMQferuPasaWDHysbFkNmfmp28qYGSKAztvqFE-GFGhLAYh02oUqH64qL2Y6t1FWTIrLq4WRlkg3dUTW6tv9T-IXDXvJmRWrvLQldPt1wvWzAGeoPhMkKDHkE2B1hIH7aMPi2ZgSIBQNvfL4bj-caoXlpq2lufifL0C4n-4Fissqw4qZ696_JTPETa-6LX7t0CbdPys5FrsxfX_stMZczl5D6siV0IML-rFWuzE0SPDZn2vaXR7c7niN_1Tg0vfCIBCj-wTQzj9uZ7ecfU1w-15iBOi2JA19qofaMxMjcKHvJty6LfjDLDtVUVf9W7XZfLxmXG_1DxRvDmluGgwykMn8Hg0IEsRzmWKsvHxFAzbNedrXwkLcsL0QJdLbEATMOgDEuzYQ7UwOxc_UkmncjNHmbt5pryiT1Um67DdjuOl4fGxlGx7_S-JO96kZ7_vCimwJmoBNaVEM2EbaXKtQaYz7ZZwWyNL3T0s_eSN0bMQ&include_html=true&engine=google&page=10"
+        }
+      }
+    }
+  }

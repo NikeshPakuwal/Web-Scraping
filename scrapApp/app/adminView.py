@@ -69,10 +69,11 @@ def user_logout(request):
 def forget_password(request):
     return render(request, 'admin/auth/forget-pass.html')
 
-
 def user_Register(request):
+    title = "Admin Register"
     form = CreateUserForm()
     if request.method == 'POST':
+
         form = CreateUserForm(request.POST)
         if form.is_valid():
 
@@ -82,17 +83,20 @@ def user_Register(request):
             first_name = form.cleaned_data.get('first_name')
             username = form.cleaned_data.get('username')
             password = form.cleaned_data.get('password1')
-
             user = authenticate(username=username, password=password)
             login(request, user)
 
             messages.success(request, 'Account was created for ' + username)
 
             return redirect('login')
+            
         else:
             form = CreateUserForm()
 
-    context = {'form': form}
+    context = {
+        'form': form,
+        'title' : title,
+    }
     return render(request, 'admin/auth/register.html', context)
 
 
@@ -173,7 +177,6 @@ class SemrushDatatablesView(DatatablesView):
     column_defs = [
         {
             'name': 'id',
-
         }, {
             'name': 'country',
         }, {

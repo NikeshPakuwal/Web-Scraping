@@ -1,0 +1,510 @@
+{
+    "search_parameters": {
+      "q": "bob marley",
+      "location": "United States",
+      "include_html": "true",
+      "engine": "google"
+    },
+    "search_information": {
+      "total_results": 97600000,
+      "time_taken_displayed": 0.8,
+      "query_displayed": "bob marley"
+    },
+    "inline_videos": [
+      {
+        "title": "Bob Marley - One Love",
+        "link": "https://www.youtube.com/watch?v=vdB-8eLEW8g",
+        "length": "2:46",
+        "source": "YouTube - Reggae Man",
+        "date": "Apr 20, 2010",
+        "date_utc": "2010-04-20T12:00:00.000Z",
+        "block_position": 5
+      },
+      {
+        "title": "Bob Marley - Get Up, Stand Up (Live at Munich, 1980)",
+        "link": "https://www.youtube.com/watch?v=RhJ0q7X3DLM",
+        "length": "7:23",
+        "source": "YouTube - Bob Marley",
+        "date": "Jun 19, 2019",
+        "date_utc": "2019-06-19T12:00:00.000Z",
+        "block_position": 5
+      },
+      {
+        "title": "Bob Marley - No Woman, No Cry (Official Video)",
+        "link": "https://www.youtube.com/watch?v=IT8XvzIfi4U",
+        "length": "7:11",
+        "source": "YouTube - BobMarleyVEVO",
+        "date": "Jul 1, 2020",
+        "date_utc": "2020-07-01T12:00:00.000Z",
+        "block_position": 5
+      }
+    ],
+    "inline_tweets": [
+      {
+        "link": "https://twitter.com/bobmarley/status/1391483319490056192",
+        "status_link": "https://twitter.com/bobmarley/status/1391483319490056192",
+        "title": "Bob Marley (@bobmarley)",
+        "date": "13 hours ago",
+        "date_utc": "2021-05-09T20:08:38.000Z",
+        "snippet": "“Woman is to be loved and appreciated. Woman is an earth, the mother of creation.” #happymothersday ",
+        "block_position": 4
+      },
+      {
+        "link": "https://twitter.com/bobmarley/status/1391117624239656969",
+        "status_link": "https://twitter.com/bobmarley/status/1391117624239656969",
+        "title": "Bob Marley (@bobmarley)",
+        "date": "2 days ago",
+        "date_utc": "2021-05-08T12:00:00.000Z",
+        "snippet": "“Oh let JAH moon come shining in,\nInto our life again.” #TurnYourLightsDownLow #bobmarley\n\n📷 by #AdrianBoot\n© Fifty-Six Hope Road Music Ltd. ",
+        "block_position": 4
+      },
+      {
+        "link": "https://twitter.com/bobmarley/status/1390713147397480448",
+        "status_link": "https://twitter.com/bobmarley/status/1390713147397480448",
+        "title": "Bob Marley (@bobmarley)",
+        "date": "3 days ago",
+        "date_utc": "2021-05-07T12:00:00.000Z",
+        "snippet": "see it yah! NEW TUNE 🚨🎶 “Lift Our Spirits, Raise Our Voice” from @ziggymarley\n\n🎧: zig.lnk.to/losrov\n\n“Justice for all and not just for some son!” JAH\n\n#ziggymarley #bobmarley #marleyfamily #LEGACY #newmusic #reggae ",
+        "block_position": 4
+      }
+    ],
+    "knowledge_graph": {
+      "title": "Bob Marley",
+      "type": "Jamaican singer-songwriter",
+      "images": [
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,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",
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAGAAQQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQMEBQYCB//EAC4QAAEDAgUDAwQBBQAAAAAAAAEAAgMEEQUSITFBEyJRBmFxQlKBkfAUJESx0f/EABgBAAIDAAAAAAAAAAAAAAAAAAECAAME/8QAHxEAAgICAwADAAAAAAAAAAAAAAECERIhBCIxAxMU/9oADAMBAAIRAxEAPwDERv03T7X2FydFDjK6lmayB5LsuhsVkrZcOT4jHEM0crH5TZzAe75C5jxiI00kp0kZ9A58FZ55aXEsBy8Zjcp2lo6qsdlpKaWYj7GE2/Ku+uNbEybeiXDWierE1c85GgdjCe4/83V7FidK+TIJe69tASP3ssvV0dTRSCOsp5YXnYPba/weV1S1JhlY5wcWtP0mxA9uFJfGpLQFJp7NqHlONeVCp5o5oWSRHscLhPtdZZTQh/OUJnMlQIZsusN1FrJW9PUZjfQE6LmabTRQ3uLjqtcYGds5XonojEsPpoaWmkMrDO/IxzoHZHyfaHbErzs7LW0uJ4dTOw8UOHzTPL2yv6Ru9zmnwb2248JeQrSRbx3Tbs1HqnE8MxzD6mnhpJLxudGyd0VmZx4O97ryoL0502ER089VW0Bo6qVpyuu1xB2s7LsfC83qYXwykPY5gd3MDhYlt9Cl479Q3JT0y8wXOylsTdh7m+1/5/tWQcqbBJLUz2nh1/m6seqlmuzFi9EnN8oUbrH2SquhrMq83K5QUi3ozArT06zq4hH/AGTazIbmIllyPh92n8hVaEJK1QYunZs/UPTp3NijoY6Oon/xmZONiQwBo5Og/axz5ZJsplkkkIaGgvcXEAbDXj2UilqG0sUkkYzVT+1rjtG3k/KjxOEbgS0OA4KSEHGx5zyLOhj6TC77tQR4Uu6iwSxvaOmRYcbWTuZVv0Kqh26E1mQlDZSIQkWsoFQkSqEBCEKEFaS03aSD5CnRTZ4wSdeVATsJ3CWSsKZM6nuhMXSJMRrIqtYcArKigiq4XREPjdJ0nksfYOyi1xZ19SCDbQi99DVK6wnGv6OGOCcTPYwut3ZslwNgeNNW7G99CNWnkl1JBRb7FMQQSHAgg2IIsQfCFPxaeGre2ojkvKRZ7S0ggcXNrHkX3tZQE0XaFkqYISAhxs03PgKwpMFxGrgknipiImNLs0hy5reL6lRtL0iTfhAC7i3PwuAbi4XTN1GAeuhN3SoBGUIQiQVIRmGW9r6X8IQiA9Ij9S4TEAI3UsbdrN3H6VbX+rafpvjhzPNjqG2BKxKFnXGjds0fpnVIGizQPATkTHPccoum1YYdHaNzz9RsPwrpOkUJWxnoSeEis9PZCrzLMD//2Q",
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAGAAPAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAgMEBgcBAP/EADAQAAIBAwMCBAQFBQAAAAAAAAECAwAEEQUSITFBBhNRYRQicdEHQoGhsSMykcHx/8QAGAEBAQEBAQAAAAAAAAAAAAAAAgEDAAT/xAAdEQADAQADAQEBAAAAAAAAAAAAAQIRAxIhMVET/9oADAMBAAIRAxEAPwDZtwpDSAd6Fyago6Goc2pdcGsO57P5foWnuFHehN3fgZwaF3epYBy371Xr3X4Au4PuXaW3D/FHHQnUx8DF9fcHmq9e3hJODQ2LV5ruZ124UE7s/l9B7mm55Qe9aKcMKvsN3MxOcmh7v81OzSdahM/NaGTNJk1b0qDd6qyRMxbFC/N96i6lKDZyAnAxzWSS02dvCNe+JwyOgwSflLD7VFXQfEN9bi4ttNuGgIBUthcj2B+tRvD0VmPEFmL1kECOXKnHzEDqR6cZrW5/GenLp921ul1cPbIHaPyjHuBOARkdM45xSu+jyUSIV+0zEX1qXS5XtriFopVOGRwQR9aI2eofGx78j6qcilfiFeG+xqBtVjdGCPtbeMEepHr/ADVe8PXamQpkpu4XPRj96aerWGpSeIsUr1FZuacc1HJOagSyedUe+cvbScZIGRz3ppZcivSESIVJ4NHC6VHQ5Ph/EtrNdlpV8xg5XnPBzx+talN4ls9Ptp10LTrZxOCv9W52seByQe309KzbxBYbZo5Y7iK2gRCFG7Bz3wOpJqweDDc3cCJHFunkTIkCyDIBwQWj5Hrg8danJKfrNeO2vEJ8WeI/j9KFhNHCF34kkjjwY84J479ue9VDQyY7rYRlXGRle3arF470q+t0DPHE0EXMr27BljyeARnd9SfWgui2myQ3BZWjxhMNux9u9WMzwPJvb0Lu7Y61GeU7utOyvUN3+akBBpZOKbubkxoNuMnuaaVuBzQvU55FmPlM+7HKjn9QO9JIKOXECz3JkkPGzcD3Bq/fhrcHTdOvXYloDMCyDr/b29+azOe/ZtjAYIBV8dD9qsek69b6TpctrcM6zsd6uBkFscg+lTlXacNuOur0sPi/xZZ3lwNJSKVLjIMc021kUkdCvcHjINZnaeZbzEo5TacHB44/mk31293dtcNwzHtSA+EO4k560eOVKw6q7PWGorzzowX4Y/vSHk+bvQ+GR5ruBAAMsMKPejB0+QnqKTD4G47MYHNCta8uC6VDDK7bQwKAY/XmjiPxQnX7hYnibI3bcfQZ/wC1Z+gQJkSIoLqSNkkVgFQ/m9z7fahF0++YtkkepqRfXPmSDnIAxUEnJqs6vEdzXRk4FJ5rwGTzRO0mWJ2XsD5HEq9/erQ0nPWqnbjbPFx+df5qxNJzXCwLRyZANBPFMTMkVwoOB8rH09P90Y0vT7iSJfMkjXj1yanXmmW62VwJ7vrE3AAHb3NcDTNCc0mukGvYqkFCu5pOMVzJri7hL06MT30ERfaGkGSegHc1a/hdPHDXhY9yCKAaZbxpCtwclmyOe3NEAy1CrT//2Q",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTED775AqAnGOxM19VD9jLHSg2RUc0C0GwvmvwDmwWDPA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGX1HRVE6UneIKF777pPc3Ig1AfIIrXj5FRcgCeQWAGg&s"
+      ],
+      "source": {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Bob_Marley"
+      },
+      "description": "Robert Nesta Marley, OM was a Jamaican singer, songwriter, and musician. Considered one of the pioneers of reggae, his musical career was marked by fusing elements of reggae, ska, and rocksteady, as well as his distinctive vocal and songwriting style.",
+      "born": "February 6, 1945, Nine Mile, Jamaica",
+      "children": [
+        {
+          "name": "Ziggy Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Ziggy+Marley&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM1HiBLEMjYtSirWkspOt9AtS8wtyUoFUUXF-nlVyRmZOSlFq3iJWnqjM9PRKBd_EopzUyh2sjAABsv_ARQAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQmxMoATA1egQIKRAD"
+        },
+        {
+          "name": "Damian Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Damian+Marley&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM1HiArEMc4uzk421pLKTrfQLUvMLclKBVFFxfp5VckZmTkpRat4iVl6XxNzMxDwF38SinNTKHayMADjgcG1HAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQmxMoAjA1egQIKRAE"
+        },
+        {
+          "name": "Stephen Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Stephen+Marley&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM1HiBLGM483LcrSkspOt9AtS8wtyUoFUUXF-nlVyRmZOSlFq3iJWvuCS1IKM1DwF38SinNTKHayMADxLAqBHAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQmxMoAzA1egQIKRAF"
+        },
+        {
+          "name": "MORE",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+children&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM9GSyk620i9IzS_ISQVSRcX5eVbJGZk5KUWpeYtYhZPykxRyE4tyUisVYKIANOaF8D4AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ44YBKAQwNXoECCkQBg"
+        }
+      ],
+      "known_attributes": [
+        {
+          "attribute": "kc:/people/person:born",
+          "value": "February 6, 1945, Nine Mile, Jamaica",
+          "name": "Born",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+born&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM9ESy0620i9IzS_ISQVSRcX5eVZJ-UV5i1j5k_KTFHITi3JSKxVAIgAVDOtZNgAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ6BMoADAzegQILRAC"
+        },
+        {
+          "attribute": "kc:/people/deceased_person:died",
+          "value": "May 11, 1981, University of Miami Hospital And Clinics | UHealth Tower, Miami, FL",
+          "name": "Died",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+died&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM9GSz0620i9IzS_ISdVPSU1OTSxOTYkvSC0qzs-zSslMTVnEyp-Un6SQm1iUk1qpABIBAEff1A0_AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ6BMoADA0egQIKxAC"
+        },
+        {
+          "attribute": "kc:/people/person:children",
+          "value": "Ziggy Marley, Damian Marley, Stephen Marley, MORE",
+          "name": "Children",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+children&stick=H4sIAAAAAAAAAOPgE-LQz9U3SMpOM9GSyk620i9IzS_ISQVSRcX5eVbJGZk5KUWpeYtYhZPykxRyE4tyUisVYKIANOaF8D4AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ6BMoADA1egQIKRAC"
+        },
+        {
+          "attribute": "kc:/music/artist:songs",
+          "name": "Songs",
+          "value": "Songs",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+songs&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7TEspOt9HNLizOT9ROLSjKLS6yK8_PSixexCiTlJynkJhblpFYqgIV2sDICAO_1iVREAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQMSgAMDZ6BAgiEAE"
+        },
+        {
+          "attribute": "kc:/music/artist:songs",
+          "name": "1977",
+          "value": "Exodus",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+three+little+birds&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMNiyxMDIrTtcS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqblJ-kkJtYlJNaqVCSUZSaqpCTWVKSk6qQlFmUUgwAZxPJWU4AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQri4wNnoECCIQBA"
+        },
+        {
+          "attribute": "kc:/music/artist:songs",
+          "name": "1976",
+          "value": "Rastaman Vibration",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+no+woman+no+cry&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMMzIzLUjKytAS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqVlJ-kkJtYlJNaqZCXr1Cen5uYB2IkF1UCAN9e15JLAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQri4wNnoECCIQBw"
+        },
+        {
+          "attribute": "kc:/music/artist:songs",
+          "name": "1973",
+          "value": "Burnin'",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+get+up+stand+up&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMzs2wsCiML9MS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqVlJ-kkJtYlJNaqZCeWqJQWqBQXJKYlwJkAABCnqQhSwAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQri4wNnoECCIQCg"
+        },
+        {
+          "attribute": "kc:/music/artist:songs",
+          "name": "View 25+ more",
+          "value": "View 25+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+songs&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7TEspOt9HNLizOT9ROLSjKLS6yK8_PSixexCiTlJynkJhblpFYqgIV2sDICAO_1iVREAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQMTA2egQIIhAN"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "Albums",
+          "value": "Albums",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+albums&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7TEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sXsQom5Scp5CYW5aRWKkDEdrAyAgDQcXoWRgAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQMSgAMDd6BAggEAE"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "View 30+ more",
+          "value": "View 30+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+albums&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7TEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sXsQom5Scp5CYW5aRWKkDEdrAyAgDQcXoWRgAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzTooATA3egQIIBAC"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "Catch a Fire",
+          "value": "Catch a Fire1973",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=The+Wailers+Catch+a+Fire&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1HiArEMi3LKK4q0hHxLizOTHYtKMotLQvIdc5JKcxexSoRkpCqEJ2bmpBYVKzgnliRnKCQquGUWpe5gZQQAJVu8NEoAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wN3oECCAQBQ"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "Concrete Jungle: The Trilo...",
+          "value": "Concrete Jungle: The Trilo...2006",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+Concrete+Jungle:+The+Trilogy+CD1&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMMo8vzjUrSNMS8i0tzkx2LCrJLC4JyXfMSSrNXcSq7ZSfpOCbWJSTWqngnJ-XXJRakqrgVZqXnpNqpRCSkaoQUpSZk58OlHQx3MHKCACgDVuMYAAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wN3oECCAQBw"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "Uprising Live!",
+          "value": "Uprising Live!2014",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+Uprising+Live!&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMKk-zMEwzS9IS8i0tzkx2LCrJLC4JyXfMSSrNXcQq6ZSfpOCbWJSTWqkQWlCUWZyZl67gk1mWqriDlREA9WK4Qk4AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wN3oECCAQCQ"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "No Woman No Cry...",
+          "value": "No Woman No Cry...2020",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+No+Woman+No+Cry+(Live)&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzTMMssyyksvqNIS8i0tzkx2LCrJLC4JyXfMSSrNXcSq6JSfpOCbWJSTWqngl68Qnp-bmAdiOBdVKmj4ZJalau5gZQQAGj9yd1YAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wN3oECCAQCw"
+        },
+        {
+          "attribute": "kc:/music/artist:albums",
+          "name": "Live On Stage",
+          "value": "Live On Stage2017",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+Live+On+Stage&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1Hi1U_XNzRMM89KNy6qKtcS8i0tzkx2LCrJLC4JyXfMSSrNXcQq4ZSfpOCbWJSTWqngk1mWquCfpxBckpieuoOVEQB8CGMBTQAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wN3oECCAQDQ"
+        },
+        {
+          "attribute": "kc:/people/person:quote",
+          "name": "Quotes",
+          "value": "Quotes",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=bob+marley+quotes&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7TEs5Ot9AtS8wtyUoFUUXF-nlVhaX5J6iJWwaT8JIXcxKKc1EoFsFAxAN82HP5DAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQMTA4egQIHhAC"
+        },
+        {
+          "attribute": "kc:/people/person:quote",
+          "name": "View 7+ more",
+          "value": "View 7+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+Quotes&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQh1swOHoECB4QBg"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "People also search for",
+          "value": "People also search for",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7SkspOt9AtS8wtyUoFUUXF-nlVxZkpqeWJl8SJWLqf8JAXfxKKc1ModrIwA4423vEIAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQMSgAMDl6BAgoEAE"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "View 15+ more",
+          "value": "View 15+ more",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1GCs7SkspOt9AtS8wtyUoFUUXF-nlVxZkpqeWJl8SJWLqf8JAXfxKKc1ModrIwA4423vEIAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzTooATA5egQIKBAC"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Rita Marley",
+          "value": "Rita Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Rita+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1HiArEMs-KL8ky0-AJSi4rz84IzU1LLEyuLF7FyB2WWJCr4JhblpFbuYGUEADFNmbI5AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wOXoECCgQBQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Ziggy Marley",
+          "value": "Ziggy Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Ziggy+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1HiBLEMjYtSirX4AlKLivPzgjNTUssTK4sXsfJEZaanVyr4JhblpFbuYGUEAFeHjxg5AAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wOXoECCgQBw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Damian Marley",
+          "value": "Damian Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Damian+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1HiArEMc4uzk421-AJSi4rz84IzU1LLEyuLF7HyuiTmZibmKfgmFuWkVu5gZQQAG79pijsAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wOXoECCgQCQ"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Trending",
+          "value": "Elvis Presley (Trending)",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Elvis+Presley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1ECs4yyCg21-AJSi4rz84IzU1LLEyuLF7HyuuaUZRYrBBSlFuekVu5gZQQAmBj62DkAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wOXoECCgQCw"
+        },
+        {
+          "attribute": "kc:/people/person:sideways",
+          "name": "Stephen Marley",
+          "value": "Stephen Marley",
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Stephen+Marley&stick=H4sIAAAAAAAAAONgFuLQz9U3SMpOM1HiBLGM483LcrT4AlKLivPzgjNTUssTK4sXsfIFl6QWZKTmKfgmFuWkVu5gZQQADTnTKzsAAAA&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQxA0wOXoECCgQDQ"
+        }
+      ],
+      "available_on": [
+        {
+          "name": "YouTube",
+          "link": "https://www.youtube.com/playlist?playnext=1&list=PLEMVZmX54bvfyeoo61gNMzFQkn_i6lxXi&feature=gws_kp_artist"
+        },
+        {
+          "name": "Spotify",
+          "link": "https://open.spotify.com/artist/6BH2lormtpjy3X9DyrGHVj?autoplay=true"
+        },
+        {
+          "name": "iHeartRadio",
+          "link": "https://www.iheart.com/artist/radio-Bob+Marley-1044?autoplay=true"
+        },
+        {
+          "name": "Apple Music",
+          "link": "https://itunes.apple.com/us/artist/bob-marley/121982?ign-gact=3&ls=1"
+        },
+        {
+          "name": "Pandora",
+          "link": "http://www.pandora.com/?sc=miR3997024"
+        },
+        {
+          "name": "Deezer",
+          "link": "https://www.deezer.com/artist/12564362/radio?autoplay=true"
+        },
+        {
+          "name": "YouTube Music",
+          "link": "https://music.youtube.com/channel/UCBfv87kvVXyNi88URZ1zvCA?feature=gws_kp_artist&feature=gws_kp_artist"
+        }
+      ],
+      "block_position": 3,
+      "people_also_search_for": [
+        {
+          "name": "Rita Marley"
+        },
+        {
+          "name": "Ziggy Marley"
+        },
+        {
+          "name": "Damian Marley"
+        },
+        {
+          "name": "Elvis Presley (Trending)",
+          "category": "Trending"
+        },
+        {
+          "name": "Stephen Marley"
+        }
+      ]
+    },
+    "related_searches": [
+      {
+        "query": "bob marley is this love",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+Is+this+love&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwIXoECCQQAQ"
+      },
+      {
+        "query": "how did bob marley",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=How+did+Bob+Marley&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwInoECCMQAQ"
+      },
+      {
+        "query": "bob marley net worth",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+net+worth&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwI3oECCwQAQ"
+      },
+      {
+        "query": "bob marley wife",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+wife&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwJHoECBwQAQ"
+      },
+      {
+        "query": "where is bob marley buried",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Where+is+Bob+Marley+buried&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwJXoECBoQAQ"
+      },
+      {
+        "query": "bob marley one love",
+        "link": "https://www.google.com/search?gl=us&hl=en&q=Bob+Marley+One+Love&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ1QIwJnoECBkQAQ"
+      }
+    ],
+    "related_questions": [
+      {
+        "question": "What kind of cancer did Bob Marley have?",
+        "answer": "lentiginous melanoma",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=What+kind+of+cancer+did+Bob+Marley+have%3F&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzmd6BAgKEAs",
+          "title": "What kind of cancer did Bob Marley have?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Did Bob Marley get shot?",
+        "answer": "Though aimed for his chest, the bullet hit Marley's arms as his manager Don Taylor pulled him down just at that moment. Taylor and Louise Griffin, a band employee, also got shot in their leg and torso. By some miracle, the gunmen fled the scene soon after shooting Marley leaving behind zero casualties.",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Did+Bob+Marley+get+shot%3F&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzmd6BAgKEA8",
+          "title": "Did Bob Marley get shot?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "What was found in Bob Marley's dreads when he died?",
+        "answer": "When Bob Marley died they found 19different species of lice in his dreadlocks.",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=What+was+found+in+Bob+Marley%27s+dreads+when+he+died%3F&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzmd6BAgKEBM",
+          "title": "What was found in Bob Marley's dreads when he died?"
+        },
+        "block_position": 2
+      },
+      {
+        "question": "Who is the richest son of Bob Marley?",
+        "answer": "Damian Marley Net Worth",
+        "search": {
+          "link": "https://www.google.com/search?gl=us&hl=en&q=Who+is+the+richest+son+of+Bob+Marley%3F&sa=X&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQzmd6BAgKEBc",
+          "title": "Who is the richest son of Bob Marley?"
+        },
+        "block_position": 2
+      }
+    ],
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "Bob Marley",
+        "link": "https://www.bobmarley.com/",
+        "domain": "www.bobmarley.com",
+        "displayed_link": "https://www.bobmarley.com",
+        "snippet": "PEACE. FREEDOM. #BOBMARLEY75. Watch “Redemption Song” and follow Bob Marley's 75th earthstrong anniversary celebrations.",
+        "prerender": true,
+        "snippet_matched": [
+          "Bob Marley's"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xQvj47SrZisJ:https://www.bobmarley.com/+&cd=1&hl=en&ct=clnk&gl=us",
+        "block_position": 1
+      },
+      {
+        "position": 2,
+        "title": "Bob Marley - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Bob_Marley",
+        "domain": "en.wikipedia.org",
+        "displayed_link": "https://en.wikipedia.org › wiki › Bob_Marley",
+        "snippet": "Robert Nesta Marley, OM (6 February 1945 – 11 May 1981) was a Jamaican singer, songwriter, and musician. Considered one of the pioneers of reggae, his musical career was marked by fusing elements of reggae, ska, and rocksteady, as well as his distinctive vocal and songwriting style.",
+        "prerender": false,
+        "snippet_matched": [
+          "Marley"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qEcSA4OtcYYJ:https://en.wikipedia.org/wiki/Bob_Marley+&cd=4&hl=en&ct=clnk&gl=us",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {},
+            "extensions": [
+              "‎Bob Marley and the Wailers...",
+              "‎Attempted assassination of...",
+              "‎Outline of Bob Marley"
+            ]
+          }
+        },
+        "block_position": 3
+      },
+      {
+        "position": 3,
+        "title": "Bob Marley - YouTube",
+        "link": "https://www.youtube.com/bobmarley",
+        "domain": "www.youtube.com",
+        "displayed_link": "https://www.youtube.com › bobmarley",
+        "snippet": "Jamaican singer, musician and songwriter Bob Marley served as a world ambassador for reggae music and sold more than 20 million records throughout his ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bob Marley"
+        ],
+        "block_position": 7
+      },
+      {
+        "position": 4,
+        "title": "Home page Comedian Bob Marley",
+        "link": "https://www.bmarley.com/",
+        "domain": "www.bmarley.com",
+        "displayed_link": "https://www.bmarley.com",
+        "snippet": "Watch Bob Marley videos on YouTube Like Bob Marley on Facebook Follow Bob Marley on Twitter. LOOKING FOR SHOW TICKETS? TIME TO LAUGH!",
+        "prerender": false,
+        "snippet_matched": [
+          "Bob Marley",
+          "Bob Marley",
+          "Bob Marley"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6aGvb8GqRG4J:https://www.bmarley.com/+&cd=26&hl=en&ct=clnk&gl=us",
+        "block_position": 8
+      },
+      {
+        "position": 5,
+        "title": "Bob Marley: 50 Greatest Songs - Rolling Stone",
+        "link": "https://www.rollingstone.com/music/music-lists/bob-marley-greatest-songs-937701/",
+        "domain": "www.rollingstone.com",
+        "displayed_link": "https://www.rollingstone.com › music › music-lists › bo...",
+        "snippet": "This list was originally published March 28th, 2014. It's being republished in honor of what would have been Bob Marley's 75th birthday, ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bob Marley's"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:IkIWwR187yoJ:https://www.rollingstone.com/music/music-lists/bob-marley-greatest-songs-937701/+&cd=27&hl=en&ct=clnk&gl=us",
+        "date": "Feb 5, 2020",
+        "date_utc": "2020-02-05T12:00:00.000Z",
+        "block_position": 9
+      },
+      {
+        "position": 6,
+        "title": "Bob Marley - Verified Page | Facebook",
+        "link": "https://www.facebook.com/BobMarley",
+        "domain": "www.facebook.com",
+        "displayed_link": "https://www.facebook.com › ... › Bob Marley",
+        "snippet": "Bob Marley. 68471020 likes · 142046 talking about this. bobmarley.com // shopmarley.com // twitter.com/bobmarley // instagram.com/bobmarley //...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bob Marley",
+          "bobmarley",
+          "bobmarley",
+          "bobmarley"
+        ],
+        "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UPfjNsOLOQoJ:https://www.facebook.com/BobMarley+&cd=28&hl=en&ct=clnk&gl=us",
+        "block_position": 10
+      },
+      {
+        "position": 7,
+        "title": "PLAID PACK: Bob Marley's cause of death used to dispel myth ...",
+        "link": "https://www.wect.com/story/38133492/plaid-pack-bob-marleys-cause-of-death-used-to-dispel-myth-about-skin-cancer",
+        "domain": "www.wect.com",
+        "displayed_link": "https://www.wect.com › story › plaid-pack-bob-marleys-c...",
+        "snippet": "Bob Marley is credited with introducing the world to reggae music. Now, the Jamaican-born artist is being used to dispel a myth that black people can't get skin ...",
+        "prerender": false,
+        "snippet_matched": [
+          "Bob Marley"
+        ],
+        "block_position": 11
+      }
+    ],
+    "pagination": {
+      "next": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=10&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8NMDegQIAhBJ",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=10&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhA3",
+        "3": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=20&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhA5",
+        "4": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=30&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhA7",
+        "5": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=40&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhA9",
+        "6": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=50&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhA_",
+        "7": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=60&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhBB",
+        "8": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=70&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhBD",
+        "9": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=80&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhBF",
+        "10": "https://www.google.com/search?q=bob+marley&gl=us&hl=en&ei=FPiYYNqpII-awbkP8sqpmAk&start=90&sa=N&ved=2ahUKEwjag5374b7wAhUPTTABHXJlCpMQ8tMDegQIAhBH"
+      },
+      "api_pagination": {
+        "next": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=2",
+        "other_pages": {
+          "2": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=2",
+          "3": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=3",
+          "4": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=4",
+          "5": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=5",
+          "6": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=6",
+          "7": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=7",
+          "8": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=8",
+          "9": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=9",
+          "10": "https://api.serpwow.com/live/search?api_key=demo&q=bob%20marley&location=United%20States&recaptcha=03AGdBq274rxAIN0wuLkYoAbdp0eG-ZvnUuanV1CnD1I__mldQXnUx_jZPmf7VC0NCeR-yllBDTuZY1kXlzbUX-ByE0m2Agg2j0oOEcMAh-e4R9-hc8hhAfCQiuG2S-CX0w_ZRqgO6CP_yUS5-Aj5ULwWWA3w_8K2-qSNZLTCumF7i-aSojsdxUbkALOWx9pTBpgxALEAfY7efNLFW0IiyNcvQDXtEaCWS0Z1AyWA6P9A1JZ_olY94fn8fTcNnaBjQpXCWQTFPoBYpsg7RceFXipNRMBEnqZ4OXgL2Z5XIZ_09tnEDVXDxreZRa9cOG2eKWr1wsW4IfjA96Nk-1VeSkIIdNku36JJNIKxBt6zphd1CHgc3pKIF_6JMprT9ckLUVXpTF__dVihFM5y1R0cHtSLBU4Eu8ElQmMCeDC-GWdtqpkG8R8VmZAuEHlroHdknBDJy6mojUK9XyPLO4cHuV-E8cUuK-Pup3WaXtwEGKS05dhdPYyQwk_PFFQSlT0VPNcRLz62Zr89sZC_dsZc5HP92CFFkxEDJew&include_html=true&engine=google&page=10"
+        }
+      }
+    }
+  }

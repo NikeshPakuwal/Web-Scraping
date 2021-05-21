@@ -1,4 +1,5 @@
 {% extends 'admin/base_site.html' %}
+{% block title %}{{title}}{% endblock %}
 {% load static %}
 {% block css %}
 <!-- DataTables -->
@@ -9,7 +10,6 @@
 
 <style>
     div.dataTables_wrapper div.dataTables_filter{display:none;}
-
 </style>
 {% endblock %}
 
@@ -24,25 +24,21 @@
                 <h3 class="card-title">Google Upload List</h3>
                 <div class="box-tools float-right">
                     {% csrf_token %}
-                    <button class="bulk_upload btn btn-primary">Bulk Upload Links</button>
+                  
+                    <button class="bulk_upload btn btn-primary">
+                        <span id="bulk_upload_loader" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" hidden></span>
+                        Bulk Upload Links</button>
                 </div>
             </div>
             <div class="card-body">
-                <table class="table table-bordered table-striped table-hover" id="google_links_ajx"
+                <table class="table table-bordered table-striped table-hover" id="datatable-register"
                        style="width:100% !important">
 
                 </table>
             </div>
         </div>
     </div>
-    {% if object_list %}
-    {% else %}
-    <div class="col-12">
-        <div class="alert alert-warning" role="alert">
-            There is no product, yet. But if you want, you can add from <strong>here.</strong>
-        </div>
-    </div>
-    {% endif %}
+    
 </div>
 {% endblock %}
 {% block scripts %}
@@ -56,10 +52,10 @@
 
 <script>
     $(function () {
-    var csrf = $("input[name=csrfmiddlewaretoken]").val()
+    var token = $("input[name=csrfmiddlewaretoken]").val()
 
         DatatablesViewUtils.initialize_table(
-            $('#google_links_ajx'),
+            $('#datatable-register'),
             "{% url 'google_links_ajx' %}",
             {
                 // extra_options (example)
@@ -69,46 +65,48 @@
                 scrollX: false
             }
         );
-        $('.bulk_upload').on('click' ,function(event) {
+        $(document).on('click', ".bulk_upload", function(event) {
             var obj = [];
+            $('#bulk_upload_loader').removeAttr("hidden");
             $(".checklist").each(function() {
                 if ($(this).is(":checked")) {
                     obj.push($(this).attr("data-cid"));
                 }
             });
-            //alert(obj);
+            // alert(obj);
             // var serializedData = obj;
 
             var formData = {
                 'id': obj,
-                csrfmiddlewaretoken:csrf,
+                csrfmiddlewaretoken:token,
                 contentType: 'application/x-www-form-urlencoded',
                 encode: true,
             };
 
+            // console.log(formData);
+
             $.ajax({
                 type        : 'POST',
-                url         : '{% url 'bulk_link_upload' %}',
+                url         : "{% url 'bulk_link_upload' %}",
                 data        : {
                     'id' :  obj,
-                    'csrfmiddlewaretoken' : csrf
+                    'csrfmiddlewaretoken' : token
                 },
                 success: function (response) {
-                    //console.log(response.data);
-                    //var data = response.data;
-                     window.location.href = '{% url 'scrap_view' %}';
-
+                    console.log(response.data);
+                    window.location.href = "{% url 'scrap_view' %}";
+                },
+                error: function(response){
+                    $('#bulk_upload_loader').attr("hidden","true");
+                    alert("Something Went wrong! Server Error");
                 }
-
             })
-
-
-
         });
-        $(document).on("click", ".delete_button" , function() {
+
+        $(document).on("click", ".delete-button" , function() {
             event.preventDefault();
             var _button = $(this);
-            var nurl = _button.attr("data-url");
+            var nurl = _button.attr("cid");
             bootbox.confirm({
                 title: "Delete record?",
                 message: "Do you want to delete? This cannot be undone.",
@@ -127,24 +125,19 @@
                     };
                     var posting = $.post(nurl, data);
                     posting.done(function (data) {
-                        var table = $('#datatable_register');
-                         table.DataTable().ajax.reload(null, false);
+                        var table = $('#datatable-register');
+                        table.DataTable().ajax.reload(null, false);
                     });
                     posting.fail(function (data) {
                         alert("fail");
                     });
-                }else{
-                    alert("cancelled");
                 }
-
                 },
             });
         });
 
-
     })
-
-
+    
 
 </script>
 
