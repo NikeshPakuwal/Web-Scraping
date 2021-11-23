@@ -119,14 +119,16 @@ class DataTables(object):
             term = column_search['value']
 
             if column_search.get("regex", False) is True:
-                _col_specific_search.update({col: {'$regex': term, '$options': 'i'}})
+                _col_specific_search.update(
+                    {col: {'$regex': term, '$options': 'i'}})
             else:
                 _col_specific_search.update({col: term})
 
         # Putting the global search variant last, should overwrite all DT-searches
         for term in self.search_terms_with_a_colon:
             col, term = term.split(':')
-            _col_specific_search.update({col: {'$regex': term, '$options': 'i'}})
+            _col_specific_search.update(
+                {col: {'$regex': term, '$options': 'i'}})
 
         return _col_specific_search
 
@@ -169,11 +171,11 @@ class DataTables(object):
     def results(self):
 
         _agg = [
-                {'$match': self.filter},
-                {'$sort': {self.order_column: self.order_dir}},
-                {'$skip': self.start},
-                {'$project': self.projection}
-            ]
+            {'$match': self.filter},
+            {'$sort': {self.order_column: self.order_dir}},
+            {'$skip': self.start},
+            {'$project': self.projection}
+        ]
 
         if self.limit:
             _agg.append({'$limit': self.limit})
@@ -183,7 +185,8 @@ class DataTables(object):
         processed_results = []
         for result in _results:
             result = dict(result)
-            result["DT_RowId"] = str(result.pop('_id'))  # rename the _id and convert ObjectId to str
+            # rename the _id and convert ObjectId to str
+            result["DT_RowId"] = str(result.pop('_id'))
 
             # go through every val in result and try to json.dumps objects and arrays - skip this if strings are okay
             for key, val in result.items():

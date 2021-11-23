@@ -10,12 +10,14 @@ from django_countries.widgets import CountrySelectWidget
 class AuthUser(forms.ModelForm):
     class Meta:
         model = User
-        fields = ["username", "password", "first_name", "last_name", "email", "is_active", "is_staff", "is_superuser", "user_permissions"]
-    
+        fields = ["username", "password", "first_name", "last_name", "email",
+                  "is_active", "is_staff", "is_superuser", "user_permissions"]
+
     def __init__(self, *args, **kwargs):
         super(AuthUser, self).__init__(*args, **kwargs)
         for visible in self.visible_fields():
             visible.field.widget.attrs['class'] = 'form-group col'
+
 
 class CreateUserForm(UserCreationForm):
     class Meta:
@@ -41,8 +43,10 @@ class CountryForm(forms.ModelForm):
 
 class JsonDataStore(forms.ModelForm):
     children = forms.MultipleChoiceField(
-        choices= ['children', 'images', 'related_searches', 'related_questions', 'organic_results', 'books', 'profiles', 'people_also_search_for', 'known_attributes']
+        choices=['children', 'images', 'related_searches', 'related_questions',
+                 'organic_results', 'books', 'profiles', 'people_also_search_for', 'known_attributes']
     )
+
     class Meta:
         model = StoreJsonData
         fields = '__all__'

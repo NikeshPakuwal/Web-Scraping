@@ -7,7 +7,8 @@ from django.views import View
 from .forms import ScrapForm, CountryForm
 from .models import ScrapGoogleDataLinkData
 from django.urls import reverse_lazy
-import requests, urllib
+import requests
+import urllib
 from django.http import HttpResponse, JsonResponse
 from json2html import *
 
@@ -17,7 +18,9 @@ from django.contrib import messages
 from googlesearch import search
 
 from serpwow.google_search_results import GoogleSearchResults
-import json, pycountry
+import json
+import pycountry
+
 
 class ScrapList(View):
 
@@ -28,6 +31,7 @@ class ScrapList(View):
         }
         template_name = 'admin/scraping/list.html'
         return render(request, template_name, context)
+
 
 class scrap_list_json(DatatablesView):
     model = ScrapGoogleDataLinkData
@@ -43,7 +47,7 @@ class scrap_list_json(DatatablesView):
             'name': 'title',
         }, {
             'name': 'created_date',
-        },{
+        }, {
             'name': 'Action',
             'searchable': False
         }
@@ -60,6 +64,7 @@ class scrap_list_json(DatatablesView):
         )
 
         return
+
 
 class scrapDataView(DetailView):
     title = 'Scrap Data View'
@@ -88,7 +93,6 @@ def djbs(request):
 
     if request.method == "POST":
         # form = ScrapForm(request.POST, request.FILES)
-
 
         page_url = request.POST.get('web_link', None)
 
@@ -124,7 +128,9 @@ class DjBs(TemplateView):
 
         # requests
         url = website_link
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}  # headers
+        # headers
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
         source = requests.get(url, headers=headers)
 
         # beautifulsoup
@@ -153,13 +159,15 @@ def get_title(html):
         title = html.find("h1").string
     return title
 
+
 def get_description(html):
     """Scrape page description."""
     description = None
     if html.find("article"):
         description = html.find("article")
     elif html.find("div", {'class': ['wrap-content-main', 'post_the_content', 'mw-parser-output', 'descContainer', 'content']}):
-        description = html.find(True, {'class': ['wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
+        description = html.find(True, {'class': [
+                                'wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
     elif html.find("main", id_='main'):
         description = html.find("main")
     elif html.find("p"):
@@ -167,6 +175,7 @@ def get_description(html):
 
     # description = html.find(True, {'class':['wrap-content-main', 'post_the_content', 'descContainer', 'content']})
     return description
+
 
 def get_image(html):
     """Scrape share image."""
@@ -181,6 +190,7 @@ def get_image(html):
         image = html.find_all("img").get('src')
     return image
 
+
 def get_site_name(html, url):
     """Scrape site name."""
     if html.find("meta", property="og:site_name"):
@@ -192,6 +202,7 @@ def get_site_name(html, url):
         return site_name.split('/')[0].rsplit('.')[1].capitalize()
     return site_name
 
+
 def get_favicon(html, url):
     """Scrape favicon."""
     if html.find("link", attrs={"rel": "icon"}):
@@ -202,14 +213,13 @@ def get_favicon(html, url):
         favicon = f'{url.rstrip("/")}/favicon.ico'
     return favicon
 
+
 def get_theme_color(html):
     """Scrape brand color."""
     if html.find("meta", property="theme-color"):
         color = html.find("meta", property="theme-color").get('content')
         return color
     return None
-
-
 
 
 # Scrap Data View
@@ -221,14 +231,13 @@ class ScrapData(View):
             'title': title
         }
         return render(request, 'admin/scraping/scrap_data.html', context)
-        
-        
+
     def post(self, request):
         title = 'Scrap Data'
         serpwow = GoogleSearchResults("6F46BE7319E84E65978F88651E180FC2")
 
         keyword = {
-            "q" : request.POST.get("keyword"),
+            "q": request.POST.get("keyword"),
             "location": request.POST.get("country")
         }
 
@@ -243,9 +252,9 @@ class ScrapData(View):
         messages.success(request, 'Your data is here...')
 
         context = {
-            'title' : title,
-            'keyword_find' : keyword_find,
-            'country' : country
+            'title': title,
+            'keyword_find': keyword_find,
+            'country': country
         }
         return render(request, 'admin/scraping/scrap_data.html', context)
 
@@ -258,8 +267,3 @@ class ScrapData(View):
 #         messages.success(request, 'Data Uploaded Sucessfully...')
 
 #     return render(request, 'admin/scraping/scrap_data.html', {'JsonDataStore', JsonDataStore})
-
-
-
-
-

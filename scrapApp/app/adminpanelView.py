@@ -10,16 +10,18 @@ from django.urls import reverse_lazy
 from .forms import AuthUser
 from django.contrib import messages
 
-#admin panel control user view
+# admin panel control user view
+
+
 @login_required(login_url='/admin/login/')
 def AdminUserList(request):
     title = 'User List'
-    data =  User.objects.all()
+    data = User.objects.all()
     context = {
         'title': title,
-        'data' : data, 
+        'data': data,
     }
-    
+
     return render(request, "admin/adminuser_list.html", context)
 
 # #user ajax delete
@@ -28,15 +30,17 @@ def AdminUserList(request):
 #     data.delete()
 #     return redirect(reverse_lazy('authUser'))
 
-#user edit
+# user edit
+
+
 def AdminUserEdit(request, id):
     title = 'User Edit'
-    obj = get_object_or_404(User, id = id)
+    obj = get_object_or_404(User, id=id)
 
-    form = AuthUser(request.POST or None, instance = obj)
+    form = AuthUser(request.POST or None, instance=obj)
     context = {
-        'form' : form,
-        'title' : title,
+        'form': form,
+        'title': title,
     }
     if form.is_valid():
         form.save()
@@ -45,9 +49,11 @@ def AdminUserEdit(request, id):
 
     return render(request, 'admin/adminuser_edit.html', context)
 
-#user view
+# user view
+
+
 def AdimUserView(request, id):
     title = 'User Edit'
     if request.method == "GET":
-        display = User.objects.get(id = id)
+        display = User.objects.get(id=id)
     return render(request, "admin/adminuser_view.html", {'title': title, 'display': display})

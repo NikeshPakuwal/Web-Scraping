@@ -50,7 +50,8 @@ class Editor(object):
         :return: output like {'data': [{'DT_RowID': 'x', ... }]}
         """
 
-        data_obj = {k: v for k, v in self.data['0'].items() if v}  # ignore keys that might not exist
+        # ignore keys that might not exist
+        data_obj = {k: v for k, v in self.data['0'].items() if v}
 
         # try to save an object or array
         for key, val in data_obj.items():
@@ -73,7 +74,8 @@ class Editor(object):
         data = []
 
         for _id in self.list_of_ids:
-            doc = {k: v for k, v in self.data[_id].items() if v}  # ignore keys that might not exist
+            # ignore keys that might not exist
+            doc = {k: v for k, v in self.data[_id].items() if v}
 
             # try to save an object or array
             for key, val in doc.items():
@@ -82,7 +84,8 @@ class Editor(object):
                 except (json.decoder.JSONDecodeError, TypeError):
                     pass
 
-            self.db[self.collection].update_one({"_id": ObjectId(_id)}, {"$set": doc}, upsert=False)
+            self.db[self.collection].update_one(
+                {"_id": ObjectId(_id)}, {"$set": doc}, upsert=False)
 
             # add the _id to the doc object
             doc["DT_RowId"] = _id

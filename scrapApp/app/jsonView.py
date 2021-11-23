@@ -6,29 +6,32 @@ from django.shortcuts import redirect
 
 from django.shortcuts import render
 import requests
-import json, os
+import json
+import os
 
 from django.views.generic import View, ListView
 from ajax_datatable.views import AjaxDatatableView
 from django.urls import reverse_lazy
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#multiple json data view
+# multiple json data view
+
+
 def JsonDataView(request):
     title = "Json Data View"
     data = ""
-    json_file_url = os.path.join(BASE_DIR, 'app/jsonData/' )
+    json_file_url = os.path.join(BASE_DIR, 'app/jsonData/')
 
     query = request.POST.get('select')
-    
+
     if query is not None and query != '':
-        with open(json_file_url + query +'.json', encoding='utf-8') as file:
+        with open(json_file_url + query + '.json', encoding='utf-8') as file:
             data = json.load(file)
 
     context = {
-        'title' : title,
-        'query' : query,
-        'data' : data
+        'title': title,
+        'query': query,
+        'data': data
     }
     return render(request, "admin/json/json_view.html", context)
 
@@ -49,34 +52,36 @@ def JsonDataSave(request):
         children = request.POST.getlist('children []')
         known_attributes = request.POST.getlist('known_attributes []')
         profiles = request.POST.getlist('profiles []')
-        people_also_search_for = request.POST.getlist('people_also_search_for []')
+        people_also_search_for = request.POST.getlist(
+            'people_also_search_for []')
         related_searches = request.POST.getlist('related_searches []')
         related_questions = request.POST.getlist('related_questions []')
         organic_results = request.POST.getlist('organic_results []')
         pagination = request.POST.get('pagination')
-        form = StoreJsonData(title=title, type=type, images=images, source=source, description=description, born=born, 
-            height=height, books=books, education=education, children=children, known_attributes=known_attributes, 
-            profiles=profiles, people_also_search_for=people_also_search_for, related_searches=related_searches, 
-            related_questions=related_questions, organic_results=organic_results, pagination=pagination)
+        form = StoreJsonData(title=title, type=type, images=images, source=source, description=description, born=born,
+                             height=height, books=books, education=education, children=children, known_attributes=known_attributes,
+                             profiles=profiles, people_also_search_for=people_also_search_for, related_searches=related_searches,
+                             related_questions=related_questions, organic_results=organic_results, pagination=pagination)
         form.save()
 
     context = {
-        'form' : form
+        'form': form
     }
-    
+
     return redirect('/admin/scrap/json/list', context)
 
 
-#json data view from database
+# json data view from database
 class JsonDataList(ListView):
 
     def get(self, request):
         title = 'Json Data List'
         context = {
-            'title' : title
+            'title': title
         }
         template_name = 'admin/json/jsondata_list.html'
         return render(request, template_name, context)
+
 
 class PermissionAjaxDatatableView(AjaxDatatableView):
     model = StoreJsonData
@@ -90,7 +95,7 @@ class PermissionAjaxDatatableView(AjaxDatatableView):
             'name': 'type',
         },
         {
-            'name': 'images',            
+            'name': 'images',
             'searchable': False,
         },
         {
@@ -155,6 +160,7 @@ class PermissionAjaxDatatableView(AjaxDatatableView):
             'orderable': False
         }
     ]
+
     def customize_row(self, row, obj):
         row['action'] = '<a data-url="%s" class="btn btn-danger delete_button">%s</a>' % (
             reverse_lazy('json_delete', args=(obj.id,)),
@@ -165,31 +171,28 @@ class PermissionAjaxDatatableView(AjaxDatatableView):
         )
 
 
-#delete json data from json data list
+# delete json data from json data list
 def JsonListDelete(request, pk):
     data = StoreJsonData.objects.get(id=pk)
     data.delete()
     return redirect(reverse_lazy('json_data_list'))
 
 
-
-
-
-
-#google API JSON data
+# google API JSON data
 def googleAPI(request):
     title = "Google API"
 
     keyword = request.POST.get('keyword')
 
-    response = requests.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyDF0hcHyFC9XgCVDG84PROyHBnVm4EQDBM&cx=017576662512468239146:omuauf_lfve&q=' + str(keyword))
+    response = requests.get(
+        'https://www.googleapis.com/customsearch/v1?key=AIzaSyDF0hcHyFC9XgCVDG84PROyHBnVm4EQDBM&cx=017576662512468239146:omuauf_lfve&q=' + str(keyword))
 
     data = response.json()
     keyword_search = json.dumps(data)
 
     context = {
-        'title' : title,
-        'keyword_search' : keyword_search
+        'title': title,
+        'keyword_search': keyword_search
     }
     # return HttpResponse(keyword_search)
 

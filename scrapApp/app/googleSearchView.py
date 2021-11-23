@@ -22,7 +22,7 @@ class SemrushGetLinks(View):
 
         # search_keyword = search(query, tld="co.in", num=10, stop=10, pause=2)
         search_keyword = search(query, tld="com", num=10, stop=10, pause=2)
-        list_keyword=[]
+        list_keyword = []
         for row in search_keyword:
             list_keyword.append(row)
 
@@ -42,9 +42,11 @@ class SemrushGetLinks(View):
 
         return render(request, 'admin/serpapi/search.html', context)
 
+
 @method_decorator(login_required, name='dispatch')
 class SerpListUpload(View):
     login_url = 'backend/login'
+
     def post(self, request):
         get_links = request.POST.getlist('links')
         keyword_id = request.POST.get('keyword_id')
@@ -53,7 +55,7 @@ class SerpListUpload(View):
         objs = [
             UploadGoogleDataLink(
                 links=row,
-               keyword_id_id=keyword_id
+                keyword_id_id=keyword_id
             )
             for row in list_of_list
         ]
@@ -79,6 +81,7 @@ class GoogleList(View):
         }
         template_name = 'admin/serpapi/list.html'
         return render(request, template_name, context)
+
 
 class GoogleLinksAjax(View):
 
@@ -106,8 +109,8 @@ class GoogleLinksAjax(View):
             new_arr.append(
                 ScrapGoogleDataLinkData(
                     keyword_id=row,
-                    title= self.get_title(html),
-                    content= str(self.get_description(html))
+                    title=self.get_title(html),
+                    content=str(self.get_description(html))
                 )
             )
 
@@ -124,7 +127,7 @@ class GoogleLinksAjax(View):
 
         # return render(request, 'admin/scraping/django-bs.html', {'result': new_arr})
 
-    def get_title(self,html):
+    def get_title(self, html):
         """Scrape page title."""
         title = None
         if html.title.string:
@@ -137,15 +140,15 @@ class GoogleLinksAjax(View):
             title = html.find("h1").string
         return title
 
-    def get_description(self,html):
+    def get_description(self, html):
         """Scrape page description."""
         description = None
         if html.find("article"):
             description = html.find("article")
         elif html.find("div", {
-            'class': ['wrap-content-main', 'post_the_content', 'mw-parser-output', 'descContainer', 'content']}):
+                'class': ['wrap-content-main', 'post_the_content', 'mw-parser-output', 'descContainer', 'content']}):
             description = html.find(True, {
-            'class': ['wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
+                'class': ['wrap-content-main', 'mw-parser-output', 'post_the_content', 'descContainer', 'content']})
         elif html.find("main", id_='main'):
             description = html.find("main")
         elif html.find("p"):
@@ -162,6 +165,7 @@ class GoogleLinksAjax(View):
         template_name = 'admin/serpapi/list.html'
         return render(request, template_name, context)
 
+
 @method_decorator(login_required, name='dispatch')
 class LinksDatataleView(DatatablesView):
     model = UploadGoogleDataLink
@@ -173,7 +177,7 @@ class LinksDatataleView(DatatablesView):
             'defaultContent': '<h1>test</h1>',
             'searchable': True,
             'orderable': False,
-        },{
+        }, {
             'name': 'id',
 
         }, {
@@ -192,13 +196,14 @@ class LinksDatataleView(DatatablesView):
 
     def customize_row(self, row, obj):
         row['sn'] = '<input type="checkbox" name="chk_list" class="checklist" data-cid="%s" id="chk_%s">' % (
-        obj.id, obj.id)
+            obj.id, obj.id)
         # row['Action'] = '<a href="/%s" class="btn btn-primary"><i class="fas fa-pen"></i></a>' % obj.id
         row['Action'] = '<a cid="%s" class="btn btn-danger delete-button">%s</a>' % (
             reverse_lazy('googlelink_delete', args=(obj.id,)),
             '<i class="fas fa-trash-alt"></i>'
         )
         return
+
 
 def GoogleLinksDelete(request, pk):
     data = UploadGoogleDataLink.objects.get(id=pk)

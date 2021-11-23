@@ -29,7 +29,7 @@ def scrape_page_metadata(request):
             'sitename': get_site_name(html, request),
             'color': get_theme_color(html),
             'url': request
-            }
+        }
         pp.pprint(metadata)
         return metadata
     else:
@@ -61,9 +61,11 @@ def get_description(html):
     if html.find("meta", property="description"):
         description = html.find("meta", property="description").get('content')
     elif html.find("meta", property="og:description"):
-        description = html.find("meta", property="og:description").get('content')
+        description = html.find(
+            "meta", property="og:description").get('content')
     elif html.find("meta", property="twitter:description"):
-        description = html.find("meta", property="twitter:description").get('content')
+        description = html.find(
+            "meta", property="twitter:description").get('content')
     elif html.find("p"):
         description = html.find("p").contents
     return description

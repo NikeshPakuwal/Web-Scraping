@@ -12,6 +12,8 @@ except ImportError:
     from django.contrib.postgres.fields import JSONField
 
 # Create your models here.
+
+
 class User(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
@@ -22,6 +24,7 @@ class User(models.Model):
     def __str__(self):
         return self.first_name
 
+
 class Semrush(models.Model):
     objects = None
     Item = None
@@ -30,9 +33,11 @@ class Semrush(models.Model):
     seed_keyword = models.CharField(max_length=255, blank=True, null=True)
     tags = models.CharField(max_length=255, blank=True, null=True)
     volume = models.IntegerField(blank=True, null=True)
-    keyword_difficulty = models.CharField(max_length=255, blank=True, null=True)
+    keyword_difficulty = models.CharField(
+        max_length=255, blank=True, null=True)
     ccp = models.CharField(max_length=255, blank=True, null=True)
-    competitive_density = models.CharField(max_length=255, blank=True, null=True)
+    competitive_density = models.CharField(
+        max_length=255, blank=True, null=True)
     number_of_results = models.CharField(max_length=255, blank=True, null=True)
     serp_Features = models.TextField(blank=True, null=True)
     trend = models.CharField(max_length=255, blank=True, null=True)
@@ -51,10 +56,12 @@ class ScrapWeb(models.Model):
 
     class Meta:
         default_permissions = ('add',)
-        permissions = (('give_refund', 'Can refund customers'), ('can_hire', 'Can hire employees'))
+        permissions = (('give_refund', 'Can refund customers'),
+                       ('can_hire', 'Can hire employees'))
 
     def __str__(self):
         return self.title
+
 
 class UploadGoogleDataLink(models.Model):
     keyword_id = models.ForeignKey(Semrush, on_delete=models.CASCADE)
@@ -64,10 +71,12 @@ class UploadGoogleDataLink(models.Model):
 
     class Meta:
         default_permissions = ('add',)
-        permissions = (('give_refund', 'Can refund customers'), ('can_hire', 'Can hire employees'))
+        permissions = (('give_refund', 'Can refund customers'),
+                       ('can_hire', 'Can hire employees'))
 
     def __str__(self):
         return self.keyword_id
+
 
 class ScrapGoogleDataLinkData(models.Model):
     #keyword_id = models.ForeignKey(UploadGoogleDataLink, on_delete=models.CASCADE)
@@ -78,11 +87,11 @@ class ScrapGoogleDataLinkData(models.Model):
 
     class Meta:
         default_permissions = ('add',)
-        permissions = (('give_refund', 'Can refund customers'), ('can_hire', 'Can hire employees'))
+        permissions = (('give_refund', 'Can refund customers'),
+                       ('can_hire', 'Can hire employees'))
 
     def get_absolute_url(self):
         return reverse('ScrapGoogleDataLinkData')
-
 
 
 # Scrap Data Model
@@ -93,8 +102,7 @@ class ScrapData(models.Model):
         return self.country
 
 
-
-#json data store
+# json data store
 class StoreJsonData(models.Model):
     title = models.TextField(blank=True, null=True)
     type = models.TextField(blank=True, null=True)

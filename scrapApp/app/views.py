@@ -5,5 +5,3 @@ from django.shortcuts import render
 
 def home_frontend(request):
     return render(request, 'app/home.html')
-
-

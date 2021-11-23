@@ -11,7 +11,8 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from datatables_view.views import DatatablesView
 from django.contrib import messages
-import io, csv
+import io
+import csv
 
 
 # Create your views here.
@@ -24,9 +25,11 @@ def backend_home(request):
     }
     return render(request, 'admin/home.html', context)
 
+
 @login_required(login_url='/admin/login/')
 def RedirectView(request):
     return render(request, 'admin/auth/login.html')
+
 
 @login_required(login_url='/admin/login/')
 def user_pending(request):
@@ -69,6 +72,7 @@ def user_logout(request):
 def forget_password(request):
     return render(request, 'admin/auth/forget-pass.html')
 
+
 def user_Register(request):
     title = "Admin Register"
     form = CreateUserForm()
@@ -89,13 +93,13 @@ def user_Register(request):
             messages.success(request, 'Account was created for ' + username)
 
             return redirect('login')
-            
+
         else:
             form = CreateUserForm()
 
     context = {
         'form': form,
-        'title' : title,
+        'title': title,
     }
     return render(request, 'admin/auth/register.html', context)
 
@@ -205,7 +209,7 @@ class SemrushDatatablesView(DatatablesView):
         # row['Action'] = '<a href="/%s" class="btn btn-primary"><i class="fas fa-pen"></i></a>' % obj.id
         row[
             'Action'] = '<a class="btn btn-primary" href="%s">%s</a> <a data-url="%s" class="btn btn-danger delete_button">%s</a>' % (
-            reverse_lazy('get_links', args=(obj.keyword,obj.id)),
+            reverse_lazy('get_links', args=(obj.keyword, obj.id)),
             'Get Link',
             reverse_lazy('semrush_delete', args=(obj.id,)),
             '<i class="fas fa-trash-alt"></i>'

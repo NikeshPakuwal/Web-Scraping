@@ -33,12 +33,13 @@ class Json2Html:
             json_input = {}
         elif type(json) in text_types:
             try:
-                json_input = json_parser.loads(json, object_pairs_hook=OrderedDict)
+                json_input = json_parser.loads(
+                    json, object_pairs_hook=OrderedDict)
             except ValueError as e:
-                #so the string passed here is actually not a json string
+                # so the string passed here is actually not a json string
                 # - let's analyze whether we want to pass on the error or use the string as-is as a text node
                 if u"Expecting property name" in text(e):
-                    #if this specific json loads error is raised, then the user probably actually wanted to pass json, but made a mistake
+                    # if this specific json loads error is raised, then the user probably actually wanted to pass json, but made a mistake
                     raise e
                 json_input = json
         else:
@@ -54,14 +55,14 @@ class Json2Html:
             It tries to come up with column headers for your input
         """
         if not json_input \
-        or not hasattr(json_input, '__getitem__') \
-        or not hasattr(json_input[0], 'keys'):
+                or not hasattr(json_input, '__getitem__') \
+                or not hasattr(json_input[0], 'keys'):
             return None
         column_headers = json_input[0].keys()
         for entry in json_input:
             if not hasattr(entry, 'keys') \
-            or not hasattr(entry, '__iter__') \
-            or len(entry.keys()) != len(column_headers):
+                    or not hasattr(entry, '__iter__') \
+                    or len(entry.keys()) != len(column_headers):
                 return None
             for header in column_headers:
                 if header not in entry:
@@ -122,7 +123,8 @@ class Json2Html:
         if column_headers is not None:
             converted_output += self.table_init_markup
             converted_output += '<thead>'
-            converted_output += '<tr><th>' + '</th><th>'.join(column_headers) + '</th></tr>'
+            converted_output += '<tr><th>' + \
+                '</th><th>'.join(column_headers) + '</th></tr>'
             converted_output += '</thead>'
             converted_output += '<tbody>'
             for list_entry in list_input:
@@ -134,10 +136,11 @@ class Json2Html:
             converted_output += '</table>'
             return converted_output
 
-        #so you don't want or need clubbing eh? This makes @muellermichel very sad... ;(
-        #alright, let's fall back to a basic list here...
+        # so you don't want or need clubbing eh? This makes @muellermichel very sad... ;(
+        # alright, let's fall back to a basic list here...
         converted_output = '<ul><li>'
-        converted_output += '</li><li>'.join([self.convert_json_node(child) for child in list_input])
+        converted_output += '</li><li>'.join(
+            [self.convert_json_node(child) for child in list_input])
         converted_output += '</li></ul>'
         return converted_output
 
@@ -147,10 +150,10 @@ class Json2Html:
             to generate the super awesome HTML Table format
         """
         if not json_input:
-            return "" #avoid empty tables
+            return ""  # avoid empty tables
         converted_output = self.table_init_markup + "<tr>"
         converted_output += "</tr><tr>".join([
-            "<th>%s</th><td>%s</td>" %(
+            "<th>%s</th><td>%s</td>" % (
                 self.convert_json_node(k),
                 self.convert_json_node(v)
             )
@@ -158,5 +161,6 @@ class Json2Html:
         ])
         converted_output += '</tr></table>'
         return converted_output
+
 
 json2html = Json2Html()
